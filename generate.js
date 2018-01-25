@@ -25,7 +25,7 @@ function createRel(key) {
 	return REL_PREFIX + encodeURIComponent(key);
 }
 
-request.get('http://schema.rdfs.org/all.json', function (err, request, body) {
+request.get('https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/all.json', function (err, request, body) {
 	if (err) throw err;
 	
 	var allData = JSON.parse(body);
