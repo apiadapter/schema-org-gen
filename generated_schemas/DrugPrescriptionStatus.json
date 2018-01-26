@@ -1,0 +1,7 @@
+{
+	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugPrescriptionStatus.json",
+	"title": "Drug Prescription Status",
+	"format": "http://schema.org/DrugPrescriptionStatus",
+	"media": {"type": "application/json;profile=http://schema.org/DrugPrescriptionStatus"},
+	"enum": ["OTC", "PrescriptionOnly"]
+}
