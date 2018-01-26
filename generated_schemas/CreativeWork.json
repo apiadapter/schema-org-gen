@@ -3,10 +3,10 @@
 	"title": "Creative Work",
 	"format": "http://schema.org/CreativeWork",
 	"media": {"type": "application/json;profile=http://schema.org/CreativeWork"},
-	"allOf": [{"$ref": "Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
-		"about": {"$ref": "Thing.json#/definitions/possibleRef"},
+		"about": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRef"},
 		"accessibilityAPI": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/accessibilityAPI"}
@@ -23,15 +23,15 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/accessibilityHazard"}
 		},
-		"accountablePerson": {"$ref": "Person.json#/definitions/possibleRef"},
-		"aggregateRating": {"$ref": "AggregateRating.json#/definitions/possibleRef"},
+		"accountablePerson": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"aggregateRating": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AggregateRating.json#/definitions/possibleRef"},
 		"alternativeHeadline": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/alternativeHeadline"}
 		},
-		"associatedMedia": {"$ref": "MediaObject.json#/definitions/possibleRef"},
-		"audience": {"$ref": "Audience.json#/definitions/possibleRef"},
-		"audio": {"$ref": "AudioObject.json#/definitions/possibleRefArray"},
+		"associatedMedia": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json#/definitions/possibleRef"},
+		"audience": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
+		"audio": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AudioObject.json#/definitions/possibleRefArray"},
 		"author": {"$ref": "#/definitions/author"},
 		"award": {
 			"type": "array",
@@ -41,8 +41,8 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/citation"}
 		},
-		"comment": {"$ref": "UserComments.json#/definitions/possibleRefArray"},
-		"contentLocation": {"$ref": "Place.json#/definitions/possibleRef"},
+		"comment": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserComments.json#/definitions/possibleRefArray"},
+		"contentLocation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"},
 		"contentRating": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/contentRating"}
@@ -69,10 +69,10 @@
 				}]
 			}
 		},
-		"editor": {"$ref": "Person.json#/definitions/possibleRef"},
-		"educationalAlignment": {"$ref": "AlignmentObject.json#/definitions/possibleRefArray"},
+		"editor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"educationalAlignment": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AlignmentObject.json#/definitions/possibleRefArray"},
 		"educationalUse": {"$ref": "#/definitions/educationalUse"},
-		"encoding": {"$ref": "MediaObject.json#/definitions/possibleRefArray"},
+		"encoding": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json#/definitions/possibleRefArray"},
 		"genre": {"$ref": "#/definitions/genre"},
 		"headline": {"$ref": "#/definitions/headline"},
 		"inLanguage": {"$ref": "#/definitions/inLanguage"},
@@ -96,16 +96,16 @@
 		"isFamilyFriendly": {"$ref": "#/definitions/isFamilyFriendly"},
 		"keywords": {"$ref": "#/definitions/keywords"},
 		"learningResourceType": {"$ref": "#/definitions/learningResourceType"},
-		"mentions": {"$ref": "Thing.json#/definitions/possibleRefArray"},
-		"offers": {"$ref": "Offer.json#/definitions/possibleRefArray"},
+		"mentions": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRefArray"},
+		"offers": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
 		"provider": {"$ref": "#/definitions/provider"},
-		"publisher": {"$ref": "Organization.json#/definitions/possibleRef"},
+		"publisher": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
 		"publishingPrinciples": {
 			"type": "string",
 			"format": "uri"
 		},
-		"review": {"$ref": "Review.json#/definitions/possibleRefArray"},
-		"sourceOrganization": {"$ref": "Organization.json#/definitions/possibleRef"},
+		"review": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Review.json#/definitions/possibleRefArray"},
+		"sourceOrganization": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
 		"text": {"$ref": "#/definitions/text"},
 		"thumbnailUrl": {
 			"type": "array",
@@ -119,10 +119,10 @@
 				}]
 			}
 		},
-		"timeRequired": {"$ref": "Duration.json#/definitions/possibleRef"},
+		"timeRequired": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"typicalAgeRange": {"$ref": "#/definitions/typicalAgeRange"},
 		"version": {"$ref": "#/definitions/version"},
-		"video": {"$ref": "VideoObject.json#/definitions/possibleRefArray"}
+		"video": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/VideoObject.json#/definitions/possibleRefArray"}
 	},
 	"links": [{
 		"rel": "http://schema.org/publishingPrinciples",
@@ -161,7 +161,7 @@
 		"author": {
 			"title": "Author",
 			"description": "The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"award": {
 			"title": "Award",
@@ -171,7 +171,7 @@
 		"citation": {
 			"title": "Citation",
 			"description": "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.",
-			"anyOf": [{"$ref": "CreativeWork.json#/definitions/possibleRef"}, {"type": "string"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json#/definitions/possibleRef"}, {"type": "string"}]
 		},
 		"contentRating": {
 			"title": "Content Rating",
@@ -181,12 +181,12 @@
 		"contributor": {
 			"title": "Contributor",
 			"description": "A secondary contributor to the CreativeWork.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"copyrightHolder": {
 			"title": "Copyright Holder",
 			"description": "The party holding the legal copyright to the CreativeWork.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"copyrightYear": {
 			"title": "Copyright Year",
@@ -196,7 +196,7 @@
 		"creator": {
 			"title": "Creator",
 			"description": "The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"dateCreated": {
 			"title": "Date Created",
@@ -293,7 +293,7 @@
 		"provider": {
 			"title": "Provider",
 			"description": "The organization or agency that is providing the service.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"text": {
 			"title": "Text",

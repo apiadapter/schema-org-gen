@@ -3,9 +3,9 @@
 	"title": "Join Action",
 	"format": "http://schema.org/JoinAction",
 	"media": {"type": "application/json;profile=http://schema.org/JoinAction"},
-	"allOf": [{"$ref": "InteractAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InteractAction.json"}],
 	"type": "object",
-	"properties": {"event": {"$ref": "Event.json#/definitions/possibleRefArray"}},
+	"properties": {"event": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

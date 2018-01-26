@@ -3,7 +3,7 @@
 	"title": "Medical Scholarly Article",
 	"format": "http://schema.org/MedicalScholarlyArticle",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalScholarlyArticle"},
-	"allOf": [{"$ref": "ScholarlyArticle.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ScholarlyArticle.json"}],
 	"type": "object",
 	"properties": {"publicationType": {"$ref": "#/definitions/publicationType"}},
 	"definitions": {

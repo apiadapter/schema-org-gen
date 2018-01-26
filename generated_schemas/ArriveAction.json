@@ -3,7 +3,7 @@
 	"title": "Arrive Action",
 	"format": "http://schema.org/ArriveAction",
 	"media": {"type": "application/json;profile=http://schema.org/ArriveAction"},
-	"allOf": [{"$ref": "MoveAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MoveAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

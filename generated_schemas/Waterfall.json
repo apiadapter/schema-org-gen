@@ -3,7 +3,7 @@
 	"title": "Waterfall",
 	"format": "http://schema.org/Waterfall",
 	"media": {"type": "application/json;profile=http://schema.org/Waterfall"},
-	"allOf": [{"$ref": "BodyOfWater.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BodyOfWater.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

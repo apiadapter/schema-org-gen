@@ -3,7 +3,7 @@
 	"title": "Medical Indication",
 	"format": "http://schema.org/MedicalIndication",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalIndication"},
-	"allOf": [{"$ref": "MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

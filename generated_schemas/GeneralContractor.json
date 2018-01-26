@@ -3,7 +3,7 @@
 	"title": "General Contractor",
 	"format": "http://schema.org/GeneralContractor",
 	"media": {"type": "application/json;profile=http://schema.org/GeneralContractor"},
-	"allOf": [{"$ref": "ProfessionalService.json"}, {"$ref": "HomeAndConstructionBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ProfessionalService.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HomeAndConstructionBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

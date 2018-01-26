@@ -3,7 +3,7 @@
 	"title": "Plan Action",
 	"format": "http://schema.org/PlanAction",
 	"media": {"type": "application/json;profile=http://schema.org/PlanAction"},
-	"allOf": [{"$ref": "OrganizeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OrganizeAction.json"}],
 	"type": "object",
 	"properties": {"scheduledTime": {"$ref": "#/definitions/scheduledTime"}},
 	"definitions": {

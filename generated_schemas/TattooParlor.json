@@ -3,7 +3,7 @@
 	"title": "Tattoo Parlor",
 	"format": "http://schema.org/TattooParlor",
 	"media": {"type": "application/json;profile=http://schema.org/TattooParlor"},
-	"allOf": [{"$ref": "HealthAndBeautyBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

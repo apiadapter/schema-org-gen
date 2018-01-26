@@ -3,7 +3,7 @@
 	"title": "Alignment Object",
 	"format": "http://schema.org/AlignmentObject",
 	"media": {"type": "application/json;profile=http://schema.org/AlignmentObject"},
-	"allOf": [{"$ref": "Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
 		"alignmentType": {

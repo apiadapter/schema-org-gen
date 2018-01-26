@@ -3,7 +3,7 @@
 	"title": "Assign Action",
 	"format": "http://schema.org/AssignAction",
 	"media": {"type": "application/json;profile=http://schema.org/AssignAction"},
-	"allOf": [{"$ref": "AllocateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AllocateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

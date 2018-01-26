@@ -3,19 +3,19 @@
 	"title": "Season",
 	"format": "http://schema.org/Season",
 	"media": {"type": "application/json;profile=http://schema.org/Season"},
-	"allOf": [{"$ref": "CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"endDate": {"$ref": "#/definitions/endDate"},
-		"episode": {"$ref": "Episode.json#/definitions/possibleRefArray"},
+		"episode": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Episode.json#/definitions/possibleRefArray"},
 		"numberOfEpisodes": {"$ref": "#/definitions/numberOfEpisodes"},
-		"partOfSeries": {"$ref": "Series.json#/definitions/possibleRef"},
+		"partOfSeries": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Series.json#/definitions/possibleRef"},
 		"position": {"$ref": "#/definitions/position"},
-		"producer": {"$ref": "Person.json#/definitions/possibleRef"},
-		"productionCompany": {"$ref": "Organization.json#/definitions/possibleRef"},
+		"producer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"productionCompany": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
 		"seasonNumber": {"$ref": "#/definitions/seasonNumber"},
 		"startDate": {"$ref": "#/definitions/startDate"},
-		"trailer": {"$ref": "VideoObject.json#/definitions/possibleRef"}
+		"trailer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/VideoObject.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

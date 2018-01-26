@@ -3,7 +3,7 @@
 	"title": "Duration",
 	"format": "http://schema.org/Duration",
 	"media": {"type": "application/json;profile=http://schema.org/Duration"},
-	"allOf": [{"$ref": "Quantity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Quantity.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

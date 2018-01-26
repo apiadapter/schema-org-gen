@@ -3,7 +3,7 @@
 	"title": "Visual Arts Event",
 	"format": "http://schema.org/VisualArtsEvent",
 	"media": {"type": "application/json;profile=http://schema.org/VisualArtsEvent"},
-	"allOf": [{"$ref": "Event.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

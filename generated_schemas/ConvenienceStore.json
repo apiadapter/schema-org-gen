@@ -3,7 +3,7 @@
 	"title": "Convenience Store",
 	"format": "http://schema.org/ConvenienceStore",
 	"media": {"type": "application/json;profile=http://schema.org/ConvenienceStore"},
-	"allOf": [{"$ref": "Store.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Store.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

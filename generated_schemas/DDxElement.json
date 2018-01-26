@@ -3,11 +3,11 @@
 	"title": "D Dx Element",
 	"format": "http://schema.org/DDxElement",
 	"media": {"type": "application/json;profile=http://schema.org/DDxElement"},
-	"allOf": [{"$ref": "MedicalIntangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
 	"type": "object",
 	"properties": {
-		"diagnosis": {"$ref": "MedicalCondition.json#/definitions/possibleRefArray"},
-		"distinguishingSign": {"$ref": "MedicalSignOrSymptom.json#/definitions/possibleRefArray"}
+		"diagnosis": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalCondition.json#/definitions/possibleRefArray"},
+		"distinguishingSign": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSignOrSymptom.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

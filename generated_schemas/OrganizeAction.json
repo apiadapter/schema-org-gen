@@ -3,7 +3,7 @@
 	"title": "Organize Action",
 	"format": "http://schema.org/OrganizeAction",
 	"media": {"type": "application/json;profile=http://schema.org/OrganizeAction"},
-	"allOf": [{"$ref": "Action.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Action.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

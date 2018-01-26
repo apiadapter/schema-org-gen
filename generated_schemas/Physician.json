@@ -3,15 +3,15 @@
 	"title": "Physician",
 	"format": "http://schema.org/Physician",
 	"media": {"type": "application/json;profile=http://schema.org/Physician"},
-	"allOf": [{"$ref": "MedicalOrganization.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalOrganization.json"}],
 	"type": "object",
 	"properties": {
 		"availableService": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/availableService"}
 		},
-		"hospitalAffiliation": {"$ref": "Hospital.json#/definitions/possibleRefArray"},
-		"medicalSpecialty": {"$ref": "MedicalSpecialty.json#/definitions/possibleRefArray"}
+		"hospitalAffiliation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Hospital.json#/definitions/possibleRefArray"},
+		"medicalSpecialty": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSpecialty.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {
@@ -50,7 +50,7 @@
 		"availableService": {
 			"title": "Available Service",
 			"description": "A medical service available from this provider.",
-			"anyOf": [{"$ref": "MedicalTest.json#/definitions/possibleRef"}, {"$ref": "MedicalProcedure.json#/definitions/possibleRef"}, {"$ref": "MedicalTherapy.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTest.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalProcedure.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json#/definitions/possibleRef"}]
 		}
 	}
 }

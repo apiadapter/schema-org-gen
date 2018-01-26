@@ -3,7 +3,7 @@
 	"title": "Administrative Area",
 	"format": "http://schema.org/AdministrativeArea",
 	"media": {"type": "application/json;profile=http://schema.org/AdministrativeArea"},
-	"allOf": [{"$ref": "Place.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,7 +3,7 @@
 	"title": "Eat Action",
 	"format": "http://schema.org/EatAction",
 	"media": {"type": "application/json;profile=http://schema.org/EatAction"},
-	"allOf": [{"$ref": "ConsumeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ConsumeAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

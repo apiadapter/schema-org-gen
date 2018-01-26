@@ -3,11 +3,11 @@
 	"title": "Sell Action",
 	"format": "http://schema.org/SellAction",
 	"media": {"type": "application/json;profile=http://schema.org/SellAction"},
-	"allOf": [{"$ref": "TradeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TradeAction.json"}],
 	"type": "object",
 	"properties": {
-		"buyer": {"$ref": "Person.json#/definitions/possibleRefArray"},
-		"warrantyPromise": {"$ref": "WarrantyPromise.json#/definitions/possibleRef"}
+		"buyer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"warrantyPromise": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WarrantyPromise.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

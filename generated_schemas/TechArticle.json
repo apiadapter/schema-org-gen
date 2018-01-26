@@ -3,7 +3,7 @@
 	"title": "Tech Article",
 	"format": "http://schema.org/TechArticle",
 	"media": {"type": "application/json;profile=http://schema.org/TechArticle"},
-	"allOf": [{"$ref": "Article.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Article.json"}],
 	"type": "object",
 	"properties": {
 		"dependencies": {"$ref": "#/definitions/dependencies"},

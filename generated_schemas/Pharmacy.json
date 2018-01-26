@@ -3,7 +3,7 @@
 	"title": "Pharmacy",
 	"format": "http://schema.org/Pharmacy",
 	"media": {"type": "application/json;profile=http://schema.org/Pharmacy"},
-	"allOf": [{"$ref": "MedicalOrganization.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalOrganization.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

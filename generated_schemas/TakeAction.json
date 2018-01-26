@@ -3,7 +3,7 @@
 	"title": "Take Action",
 	"format": "http://schema.org/TakeAction",
 	"media": {"type": "application/json;profile=http://schema.org/TakeAction"},
-	"allOf": [{"$ref": "TransferAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TransferAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

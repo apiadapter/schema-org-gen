@@ -3,7 +3,7 @@
 	"title": "Golf Course",
 	"format": "http://schema.org/GolfCourse",
 	"media": {"type": "application/json;profile=http://schema.org/GolfCourse"},
-	"allOf": [{"$ref": "SportsActivityLocation.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsActivityLocation.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

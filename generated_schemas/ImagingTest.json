@@ -3,9 +3,9 @@
 	"title": "Imaging Test",
 	"format": "http://schema.org/ImagingTest",
 	"media": {"type": "application/json;profile=http://schema.org/ImagingTest"},
-	"allOf": [{"$ref": "MedicalTest.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTest.json"}],
 	"type": "object",
-	"properties": {"imagingTechnique": {"$ref": "MedicalImagingTechnique.json#/definitions/possibleRefArray"}},
+	"properties": {"imagingTechnique": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalImagingTechnique.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

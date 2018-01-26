@@ -3,7 +3,7 @@
 	"title": "Auto Parts Store",
 	"format": "http://schema.org/AutoPartsStore",
 	"media": {"type": "application/json;profile=http://schema.org/AutoPartsStore"},
-	"allOf": [{"$ref": "AutomotiveBusiness.json"}, {"$ref": "Store.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AutomotiveBusiness.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Store.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

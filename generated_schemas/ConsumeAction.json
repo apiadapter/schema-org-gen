@@ -3,7 +3,7 @@
 	"title": "Consume Action",
 	"format": "http://schema.org/ConsumeAction",
 	"media": {"type": "application/json;profile=http://schema.org/ConsumeAction"},
-	"allOf": [{"$ref": "Action.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Action.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

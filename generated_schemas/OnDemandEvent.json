@@ -3,7 +3,7 @@
 	"title": "On Demand Event",
 	"format": "http://schema.org/OnDemandEvent",
 	"media": {"type": "application/json;profile=http://schema.org/OnDemandEvent"},
-	"allOf": [{"$ref": "PublicationEvent.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PublicationEvent.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

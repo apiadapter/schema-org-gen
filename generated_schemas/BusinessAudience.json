@@ -3,12 +3,12 @@
 	"title": "Business Audience",
 	"format": "http://schema.org/BusinessAudience",
 	"media": {"type": "application/json;profile=http://schema.org/BusinessAudience"},
-	"allOf": [{"$ref": "Audience.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json"}],
 	"type": "object",
 	"properties": {
-		"numberofEmployees": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
-		"yearlyRevenue": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
-		"yearsInOperation": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"}
+		"numberofEmployees": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"yearlyRevenue": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"yearsInOperation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

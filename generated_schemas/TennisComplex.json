@@ -3,7 +3,7 @@
 	"title": "Tennis Complex",
 	"format": "http://schema.org/TennisComplex",
 	"media": {"type": "application/json;profile=http://schema.org/TennisComplex"},
-	"allOf": [{"$ref": "SportsActivityLocation.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsActivityLocation.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

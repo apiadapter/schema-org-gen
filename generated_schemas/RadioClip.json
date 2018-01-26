@@ -3,7 +3,7 @@
 	"title": "Radio Clip",
 	"format": "http://schema.org/RadioClip",
 	"media": {"type": "application/json;profile=http://schema.org/RadioClip"},
-	"allOf": [{"$ref": "Clip.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Clip.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

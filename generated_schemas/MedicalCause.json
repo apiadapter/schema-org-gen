@@ -3,9 +3,9 @@
 	"title": "Medical Cause",
 	"format": "http://schema.org/MedicalCause",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalCause"},
-	"allOf": [{"$ref": "MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
-	"properties": {"causeOf": {"$ref": "MedicalEntity.json#/definitions/possibleRef"}},
+	"properties": {"causeOf": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRef"}},
 	"definitions": {
 		"array": {
 			"type": "array",

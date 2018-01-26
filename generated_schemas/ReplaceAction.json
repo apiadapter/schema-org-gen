@@ -3,11 +3,11 @@
 	"title": "Replace Action",
 	"format": "http://schema.org/ReplaceAction",
 	"media": {"type": "application/json;profile=http://schema.org/ReplaceAction"},
-	"allOf": [{"$ref": "UpdateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UpdateAction.json"}],
 	"type": "object",
 	"properties": {
-		"replacee": {"$ref": "Thing.json#/definitions/possibleRefArray"},
-		"replacer": {"$ref": "Thing.json#/definitions/possibleRefArray"}
+		"replacee": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRefArray"},
+		"replacer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

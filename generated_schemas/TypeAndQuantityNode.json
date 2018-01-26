@@ -3,12 +3,12 @@
 	"title": "Type And Quantity Node",
 	"format": "http://schema.org/TypeAndQuantityNode",
 	"media": {"type": "application/json;profile=http://schema.org/TypeAndQuantityNode"},
-	"allOf": [{"$ref": "StructuredValue.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
 	"type": "object",
 	"properties": {
 		"amountOfThisGood": {"$ref": "#/definitions/amountOfThisGood"},
-		"businessFunction": {"$ref": "BusinessFunction.json#/definitions/possibleRef"},
-		"typeOfGood": {"$ref": "Product.json#/definitions/possibleRef"},
+		"businessFunction": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BusinessFunction.json#/definitions/possibleRef"},
+		"typeOfGood": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"},
 		"unitCode": {"$ref": "#/definitions/unitCode"}
 	},
 	"definitions": {

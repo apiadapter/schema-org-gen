@@ -3,7 +3,7 @@
 	"title": "Preschool",
 	"format": "http://schema.org/Preschool",
 	"media": {"type": "application/json;profile=http://schema.org/Preschool"},
-	"allOf": [{"$ref": "EducationalOrganization.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EducationalOrganization.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

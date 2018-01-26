@@ -3,7 +3,7 @@
 	"title": "Single Family Residence",
 	"format": "http://schema.org/SingleFamilyResidence",
 	"media": {"type": "application/json;profile=http://schema.org/SingleFamilyResidence"},
-	"allOf": [{"$ref": "Residence.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Residence.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

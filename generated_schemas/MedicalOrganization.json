@@ -3,7 +3,7 @@
 	"title": "Medical Organization",
 	"format": "http://schema.org/MedicalOrganization",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalOrganization"},
-	"allOf": [{"$ref": "LocalBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

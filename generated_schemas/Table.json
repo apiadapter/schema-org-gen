@@ -3,7 +3,7 @@
 	"title": "Table",
 	"format": "http://schema.org/Table",
 	"media": {"type": "application/json;profile=http://schema.org/Table"},
-	"allOf": [{"$ref": "WebPageElement.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPageElement.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

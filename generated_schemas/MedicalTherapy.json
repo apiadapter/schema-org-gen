@@ -3,14 +3,14 @@
 	"title": "Medical Therapy",
 	"format": "http://schema.org/MedicalTherapy",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalTherapy"},
-	"allOf": [{"$ref": "MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
 	"properties": {
-		"adverseOutcome": {"$ref": "MedicalEntity.json#/definitions/possibleRefArray"},
-		"contraindication": {"$ref": "MedicalContraindication.json#/definitions/possibleRefArray"},
-		"duplicateTherapy": {"$ref": "MedicalTherapy.json#/definitions/possibleRefArray"},
-		"indication": {"$ref": "MedicalIndication.json#/definitions/possibleRefArray"},
-		"seriousAdverseOutcome": {"$ref": "MedicalEntity.json#/definitions/possibleRefArray"}
+		"adverseOutcome": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRefArray"},
+		"contraindication": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalContraindication.json#/definitions/possibleRefArray"},
+		"duplicateTherapy": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json#/definitions/possibleRefArray"},
+		"indication": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIndication.json#/definitions/possibleRefArray"},
+		"seriousAdverseOutcome": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

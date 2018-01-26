@@ -3,7 +3,7 @@
 	"title": "Apartment Complex",
 	"format": "http://schema.org/ApartmentComplex",
 	"media": {"type": "application/json;profile=http://schema.org/ApartmentComplex"},
-	"allOf": [{"$ref": "Residence.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Residence.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

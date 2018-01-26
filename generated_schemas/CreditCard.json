@@ -3,7 +3,7 @@
 	"title": "Credit Card",
 	"format": "http://schema.org/CreditCard",
 	"media": {"type": "application/json;profile=http://schema.org/CreditCard"},
-	"allOf": [{"$ref": "PaymentMethod.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PaymentMethod.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

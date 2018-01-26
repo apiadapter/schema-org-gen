@@ -3,9 +3,9 @@
 	"title": "Perform Action",
 	"format": "http://schema.org/PerformAction",
 	"media": {"type": "application/json;profile=http://schema.org/PerformAction"},
-	"allOf": [{"$ref": "PlayAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PlayAction.json"}],
 	"type": "object",
-	"properties": {"entertainmentBusiness": {"$ref": "EntertainmentBusiness.json#/definitions/possibleRefArray"}},
+	"properties": {"entertainmentBusiness": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EntertainmentBusiness.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

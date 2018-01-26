@@ -3,7 +3,7 @@
 	"title": "Structured Value",
 	"format": "http://schema.org/StructuredValue",
 	"media": {"type": "application/json;profile=http://schema.org/StructuredValue"},
-	"allOf": [{"$ref": "Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

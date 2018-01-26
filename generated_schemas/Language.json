@@ -3,7 +3,7 @@
 	"title": "Language",
 	"format": "http://schema.org/Language",
 	"media": {"type": "application/json;profile=http://schema.org/Language"},
-	"allOf": [{"$ref": "Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,7 +3,7 @@
 	"title": "Depart Action",
 	"format": "http://schema.org/DepartAction",
 	"media": {"type": "application/json;profile=http://schema.org/DepartAction"},
-	"allOf": [{"$ref": "MoveAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MoveAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,7 +3,7 @@
 	"title": "Health Club",
 	"format": "http://schema.org/HealthClub",
 	"media": {"type": "application/json;profile=http://schema.org/HealthClub"},
-	"allOf": [{"$ref": "HealthAndBeautyBusiness.json"}, {"$ref": "SportsActivityLocation.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsActivityLocation.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

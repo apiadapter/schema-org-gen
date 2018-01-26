@@ -3,7 +3,7 @@
 	"title": "Buddhist Temple",
 	"format": "http://schema.org/BuddhistTemple",
 	"media": {"type": "application/json;profile=http://schema.org/BuddhistTemple"},
-	"allOf": [{"$ref": "PlaceOfWorship.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PlaceOfWorship.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

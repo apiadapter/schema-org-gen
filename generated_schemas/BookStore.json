@@ -3,7 +3,7 @@
 	"title": "Book Store",
 	"format": "http://schema.org/BookStore",
 	"media": {"type": "application/json;profile=http://schema.org/BookStore"},
-	"allOf": [{"$ref": "Store.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Store.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

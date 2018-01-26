@@ -3,7 +3,7 @@
 	"title": "Pathology Test",
 	"format": "http://schema.org/PathologyTest",
 	"media": {"type": "application/json;profile=http://schema.org/PathologyTest"},
-	"allOf": [{"$ref": "MedicalTest.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTest.json"}],
 	"type": "object",
 	"properties": {"tissueSample": {"$ref": "#/definitions/tissueSample"}},
 	"definitions": {

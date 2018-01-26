@@ -3,9 +3,9 @@
 	"title": "Track Action",
 	"format": "http://schema.org/TrackAction",
 	"media": {"type": "application/json;profile=http://schema.org/TrackAction"},
-	"allOf": [{"$ref": "FindAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FindAction.json"}],
 	"type": "object",
-	"properties": {"deliveryMethod": {"$ref": "DeliveryMethod.json#/definitions/possibleRefArray"}},
+	"properties": {"deliveryMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryMethod.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,7 +3,7 @@
 	"title": "Fast Food Restaurant",
 	"format": "http://schema.org/FastFoodRestaurant",
 	"media": {"type": "application/json;profile=http://schema.org/FastFoodRestaurant"},
-	"allOf": [{"$ref": "FoodEstablishment.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FoodEstablishment.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

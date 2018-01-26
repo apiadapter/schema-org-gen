@@ -3,7 +3,7 @@
 	"title": "Order Action",
 	"format": "http://schema.org/OrderAction",
 	"media": {"type": "application/json;profile=http://schema.org/OrderAction"},
-	"allOf": [{"$ref": "TradeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TradeAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

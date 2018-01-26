@@ -3,7 +3,7 @@
 	"title": "Data Download",
 	"format": "http://schema.org/DataDownload",
 	"media": {"type": "application/json;profile=http://schema.org/DataDownload"},
-	"allOf": [{"$ref": "MediaObject.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

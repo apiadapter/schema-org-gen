@@ -3,17 +3,17 @@
 	"title": "Web Page",
 	"format": "http://schema.org/WebPage",
 	"media": {"type": "application/json;profile=http://schema.org/WebPage"},
-	"allOf": [{"$ref": "CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"breadcrumb": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/breadcrumb"}
 		},
-		"isPartOf": {"$ref": "CollectionPage.json#/definitions/possibleRef"},
+		"isPartOf": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CollectionPage.json#/definitions/possibleRef"},
 		"lastReviewed": {"$ref": "#/definitions/lastReviewed"},
-		"mainContentOfPage": {"$ref": "WebPageElement.json#/definitions/possibleRef"},
-		"primaryImageOfPage": {"$ref": "ImageObject.json#/definitions/possibleRef"},
+		"mainContentOfPage": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPageElement.json#/definitions/possibleRef"},
+		"primaryImageOfPage": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"},
 		"relatedLink": {
 			"type": "array",
 			"items": {
@@ -42,7 +42,7 @@
 				}]
 			}
 		},
-		"specialty": {"$ref": "Specialty.json#/definitions/possibleRefArray"}
+		"specialty": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Specialty.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {
@@ -92,7 +92,7 @@
 		"reviewedBy": {
 			"title": "Reviewed by",
 			"description": "People or organizations that have reviewed the content on this web page for accuracy and/or completeness.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		}
 	}
 }

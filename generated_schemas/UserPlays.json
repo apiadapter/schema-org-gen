@@ -3,7 +3,7 @@
 	"title": "User Plays",
 	"format": "http://schema.org/UserPlays",
 	"media": {"type": "application/json;profile=http://schema.org/UserPlays"},
-	"allOf": [{"$ref": "UserInteraction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserInteraction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

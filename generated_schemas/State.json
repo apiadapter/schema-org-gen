@@ -3,7 +3,7 @@
 	"title": "State",
 	"format": "http://schema.org/State",
 	"media": {"type": "application/json;profile=http://schema.org/State"},
-	"allOf": [{"$ref": "AdministrativeArea.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

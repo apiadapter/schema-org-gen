@@ -3,7 +3,7 @@
 	"title": "Recommended Dose Schedule",
 	"format": "http://schema.org/RecommendedDoseSchedule",
 	"media": {"type": "application/json;profile=http://schema.org/RecommendedDoseSchedule"},
-	"allOf": [{"$ref": "DoseSchedule.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DoseSchedule.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

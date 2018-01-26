@@ -3,7 +3,7 @@
 	"title": "Share Action",
 	"format": "http://schema.org/ShareAction",
 	"media": {"type": "application/json;profile=http://schema.org/ShareAction"},
-	"allOf": [{"$ref": "CommunicateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CommunicateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

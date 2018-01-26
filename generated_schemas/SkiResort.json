@@ -3,7 +3,7 @@
 	"title": "Ski Resort",
 	"format": "http://schema.org/SkiResort",
 	"media": {"type": "application/json;profile=http://schema.org/SkiResort"},
-	"allOf": [{"$ref": "SportsActivityLocation.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsActivityLocation.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

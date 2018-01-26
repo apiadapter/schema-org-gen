@@ -3,7 +3,7 @@
 	"title": "Software Application",
 	"format": "http://schema.org/SoftwareApplication",
 	"media": {"type": "application/json;profile=http://schema.org/SoftwareApplication"},
-	"allOf": [{"$ref": "CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"applicationCategory": {"$ref": "#/definitions/applicationCategory"},
@@ -213,7 +213,7 @@
 			"title": "Screenshot",
 			"description": "A link to a screenshot image of the app.",
 			"anyOf": [
-				{"$ref": "ImageObject.json#/definitions/possibleRef"},
+				{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"},
 				{
 					"type": "string",
 					"format": "uri"

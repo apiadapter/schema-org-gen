@@ -3,14 +3,14 @@
 	"title": "Drug Strength",
 	"format": "http://schema.org/DrugStrength",
 	"media": {"type": "application/json;profile=http://schema.org/DrugStrength"},
-	"allOf": [{"$ref": "MedicalIntangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
 	"type": "object",
 	"properties": {
 		"activeIngredient": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/activeIngredient"}
 		},
-		"availableIn": {"$ref": "AdministrativeArea.json#/definitions/possibleRef"},
+		"availableIn": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
 		"strengthUnit": {"$ref": "#/definitions/strengthUnit"},
 		"strengthValue": {"$ref": "#/definitions/strengthValue"}
 	},

@@ -3,7 +3,7 @@
 	"title": "Medical Symptom",
 	"format": "http://schema.org/MedicalSymptom",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalSymptom"},
-	"allOf": [{"$ref": "MedicalSignOrSymptom.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSignOrSymptom.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

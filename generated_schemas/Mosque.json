@@ -3,7 +3,7 @@
 	"title": "Mosque",
 	"format": "http://schema.org/Mosque",
 	"media": {"type": "application/json;profile=http://schema.org/Mosque"},
-	"allOf": [{"$ref": "PlaceOfWorship.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PlaceOfWorship.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

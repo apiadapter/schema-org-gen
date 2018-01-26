@@ -3,7 +3,7 @@
 	"title": "Travel Agency",
 	"format": "http://schema.org/TravelAgency",
 	"media": {"type": "application/json;profile=http://schema.org/TravelAgency"},
-	"allOf": [{"$ref": "LocalBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

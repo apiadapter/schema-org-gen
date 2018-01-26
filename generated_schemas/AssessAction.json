@@ -3,7 +3,7 @@
 	"title": "Assess Action",
 	"format": "http://schema.org/AssessAction",
 	"media": {"type": "application/json;profile=http://schema.org/AssessAction"},
-	"allOf": [{"$ref": "Action.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Action.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

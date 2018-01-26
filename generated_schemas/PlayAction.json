@@ -3,11 +3,11 @@
 	"title": "Play Action",
 	"format": "http://schema.org/PlayAction",
 	"media": {"type": "application/json;profile=http://schema.org/PlayAction"},
-	"allOf": [{"$ref": "Action.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Action.json"}],
 	"type": "object",
 	"properties": {
-		"audience": {"$ref": "Audience.json#/definitions/possibleRef"},
-		"event": {"$ref": "Event.json#/definitions/possibleRefArray"}
+		"audience": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
+		"event": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

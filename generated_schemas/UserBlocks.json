@@ -3,7 +3,7 @@
 	"title": "User Blocks",
 	"format": "http://schema.org/UserBlocks",
 	"media": {"type": "application/json;profile=http://schema.org/UserBlocks"},
-	"allOf": [{"$ref": "UserInteraction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserInteraction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

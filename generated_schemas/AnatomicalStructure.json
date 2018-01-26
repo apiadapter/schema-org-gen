@@ -3,18 +3,18 @@
 	"title": "Anatomical Structure",
 	"format": "http://schema.org/AnatomicalStructure",
 	"media": {"type": "application/json;profile=http://schema.org/AnatomicalStructure"},
-	"allOf": [{"$ref": "MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
 	"properties": {
 		"associatedPathophysiology": {"$ref": "#/definitions/associatedPathophysiology"},
 		"bodyLocation": {"$ref": "#/definitions/bodyLocation"},
-		"connectedTo": {"$ref": "AnatomicalStructure.json#/definitions/possibleRefArray"},
-		"diagram": {"$ref": "ImageObject.json#/definitions/possibleRefArray"},
+		"connectedTo": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRefArray"},
+		"diagram": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRefArray"},
 		"function": {"$ref": "#/definitions/function"},
-		"partOfSystem": {"$ref": "AnatomicalSystem.json#/definitions/possibleRef"},
-		"relatedCondition": {"$ref": "MedicalCondition.json#/definitions/possibleRefArray"},
-		"relatedTherapy": {"$ref": "MedicalTherapy.json#/definitions/possibleRefArray"},
-		"subStructure": {"$ref": "AnatomicalStructure.json#/definitions/possibleRefArray"}
+		"partOfSystem": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalSystem.json#/definitions/possibleRef"},
+		"relatedCondition": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalCondition.json#/definitions/possibleRefArray"},
+		"relatedTherapy": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json#/definitions/possibleRefArray"},
+		"subStructure": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

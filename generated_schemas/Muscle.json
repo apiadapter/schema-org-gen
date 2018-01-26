@@ -3,15 +3,15 @@
 	"title": "Muscle",
 	"format": "http://schema.org/Muscle",
 	"media": {"type": "application/json;profile=http://schema.org/Muscle"},
-	"allOf": [{"$ref": "AnatomicalStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
 	"type": "object",
 	"properties": {
 		"action": {"$ref": "#/definitions/action"},
-		"antagonist": {"$ref": "Muscle.json#/definitions/possibleRef"},
-		"bloodSupply": {"$ref": "Vessel.json#/definitions/possibleRef"},
-		"insertion": {"$ref": "AnatomicalStructure.json#/definitions/possibleRef"},
-		"nerve": {"$ref": "Nerve.json#/definitions/possibleRef"},
-		"origin": {"$ref": "AnatomicalStructure.json#/definitions/possibleRef"}
+		"antagonist": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Muscle.json#/definitions/possibleRef"},
+		"bloodSupply": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Vessel.json#/definitions/possibleRef"},
+		"insertion": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRef"},
+		"nerve": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Nerve.json#/definitions/possibleRef"},
+		"origin": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

@@ -3,7 +3,7 @@
 	"title": "Blog Posting",
 	"format": "http://schema.org/BlogPosting",
 	"media": {"type": "application/json;profile=http://schema.org/BlogPosting"},
-	"allOf": [{"$ref": "Article.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Article.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

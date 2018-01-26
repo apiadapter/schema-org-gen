@@ -3,7 +3,7 @@
 	"title": "Police Station",
 	"format": "http://schema.org/PoliceStation",
 	"media": {"type": "application/json;profile=http://schema.org/PoliceStation"},
-	"allOf": [{"$ref": "CivicStructure.json"}, {"$ref": "EmergencyService.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CivicStructure.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EmergencyService.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,7 +3,7 @@
 	"title": "Job Posting",
 	"format": "http://schema.org/JobPosting",
 	"media": {"type": "application/json;profile=http://schema.org/JobPosting"},
-	"allOf": [{"$ref": "Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
 		"baseSalary": {"$ref": "#/definitions/baseSalary"},
@@ -15,13 +15,13 @@
 			"items": {"$ref": "#/definitions/employmentType"}
 		},
 		"experienceRequirements": {"$ref": "#/definitions/experienceRequirements"},
-		"hiringOrganization": {"$ref": "Organization.json#/definitions/possibleRef"},
+		"hiringOrganization": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
 		"incentives": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/incentives"}
 		},
 		"industry": {"$ref": "#/definitions/industry"},
-		"jobLocation": {"$ref": "Place.json#/definitions/possibleRefArray"},
+		"jobLocation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRefArray"},
 		"occupationalCategory": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/occupationalCategory"}

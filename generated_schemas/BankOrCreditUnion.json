@@ -3,7 +3,7 @@
 	"title": "Bank or Credit Union",
 	"format": "http://schema.org/BankOrCreditUnion",
 	"media": {"type": "application/json;profile=http://schema.org/BankOrCreditUnion"},
-	"allOf": [{"$ref": "FinancialService.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FinancialService.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,13 +3,13 @@
 	"title": "Exercise Action",
 	"format": "http://schema.org/ExerciseAction",
 	"media": {"type": "application/json;profile=http://schema.org/ExerciseAction"},
-	"allOf": [{"$ref": "PlayAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PlayAction.json"}],
 	"type": "object",
 	"properties": {
-		"course": {"$ref": "Place.json#/definitions/possibleRefArray"},
-		"diet": {"$ref": "Diet.json#/definitions/possibleRefArray"},
-		"distance": {"$ref": "Distance.json#/definitions/possibleRefArray"},
-		"exercisePlan": {"$ref": "ExercisePlan.json#/definitions/possibleRefArray"},
+		"course": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRefArray"},
+		"diet": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Diet.json#/definitions/possibleRefArray"},
+		"distance": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRefArray"},
+		"exercisePlan": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ExercisePlan.json#/definitions/possibleRefArray"},
 		"exerciseType": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/exerciseType"}
@@ -18,10 +18,10 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/fromLocation"}
 		},
-		"oponent": {"$ref": "Person.json#/definitions/possibleRefArray"},
-		"sportsActivityLocation": {"$ref": "SportsActivityLocation.json#/definitions/possibleRefArray"},
-		"sportsEvent": {"$ref": "SportsEvent.json#/definitions/possibleRefArray"},
-		"sportsTeam": {"$ref": "SportsTeam.json#/definitions/possibleRefArray"},
+		"oponent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"sportsActivityLocation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsActivityLocation.json#/definitions/possibleRefArray"},
+		"sportsEvent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsEvent.json#/definitions/possibleRefArray"},
+		"sportsTeam": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsTeam.json#/definitions/possibleRefArray"},
 		"toLocation": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/toLocation"}
@@ -69,12 +69,12 @@
 		"fromLocation": {
 			"title": "From Location",
 			"description": "A sub property of location. The original location of the object or the agent before the action.",
-			"anyOf": [{"$ref": "Place.json#/definitions/possibleRef"}, {"type": "number"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}, {"type": "number"}]
 		},
 		"toLocation": {
 			"title": "To Location",
 			"description": "A sub property of location. The final location of the object or the agent after the action.",
-			"anyOf": [{"$ref": "Place.json#/definitions/possibleRef"}, {"type": "number"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}, {"type": "number"}]
 		}
 	}
 }

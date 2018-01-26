@@ -3,21 +3,21 @@
 	"title": "Series",
 	"format": "http://schema.org/Series",
 	"media": {"type": "application/json;profile=http://schema.org/Series"},
-	"allOf": [{"$ref": "CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
-		"actor": {"$ref": "Person.json#/definitions/possibleRefArray"},
-		"director": {"$ref": "Person.json#/definitions/possibleRef"},
+		"actor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"director": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
 		"endDate": {"$ref": "#/definitions/endDate"},
-		"episode": {"$ref": "Episode.json#/definitions/possibleRefArray"},
+		"episode": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Episode.json#/definitions/possibleRefArray"},
 		"musicBy": {"$ref": "#/definitions/musicBy"},
 		"numberOfEpisodes": {"$ref": "#/definitions/numberOfEpisodes"},
 		"numberOfSeasons": {"$ref": "#/definitions/numberOfSeasons"},
-		"producer": {"$ref": "Person.json#/definitions/possibleRef"},
-		"productionCompany": {"$ref": "Organization.json#/definitions/possibleRef"},
-		"season": {"$ref": "Season.json#/definitions/possibleRefArray"},
+		"producer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"productionCompany": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
+		"season": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Season.json#/definitions/possibleRefArray"},
 		"startDate": {"$ref": "#/definitions/startDate"},
-		"trailer": {"$ref": "VideoObject.json#/definitions/possibleRef"}
+		"trailer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/VideoObject.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {
@@ -62,7 +62,7 @@
 		"musicBy": {
 			"title": "Music by",
 			"description": "The composer of the movie or TV/radio soundtrack.",
-			"anyOf": [{"$ref": "Person.json#/definitions/possibleRef"}, {"$ref": "MusicGroup.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicGroup.json#/definitions/possibleRef"}]
 		},
 		"numberOfEpisodes": {
 			"title": "Number of Episodes",

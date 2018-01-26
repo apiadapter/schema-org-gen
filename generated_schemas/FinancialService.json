@@ -3,7 +3,7 @@
 	"title": "Financial Service",
 	"format": "http://schema.org/FinancialService",
 	"media": {"type": "application/json;profile=http://schema.org/FinancialService"},
-	"allOf": [{"$ref": "LocalBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

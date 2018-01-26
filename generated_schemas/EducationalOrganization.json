@@ -3,9 +3,9 @@
 	"title": "Educational Organization",
 	"format": "http://schema.org/EducationalOrganization",
 	"media": {"type": "application/json;profile=http://schema.org/EducationalOrganization"},
-	"allOf": [{"$ref": "Organization.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json"}],
 	"type": "object",
-	"properties": {"alumni": {"$ref": "Person.json#/definitions/possibleRefArray"}},
+	"properties": {"alumni": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

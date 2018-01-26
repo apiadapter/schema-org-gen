@@ -3,7 +3,7 @@
 	"title": "Radio Episode",
 	"format": "http://schema.org/RadioEpisode",
 	"media": {"type": "application/json;profile=http://schema.org/RadioEpisode"},
-	"allOf": [{"$ref": "Episode.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Episode.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

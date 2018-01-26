@@ -3,7 +3,7 @@
 	"title": "Auto Rental",
 	"format": "http://schema.org/AutoRental",
 	"media": {"type": "application/json;profile=http://schema.org/AutoRental"},
-	"allOf": [{"$ref": "AutomotiveBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AutomotiveBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

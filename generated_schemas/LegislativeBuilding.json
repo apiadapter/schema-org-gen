@@ -3,7 +3,7 @@
 	"title": "Legislative Building",
 	"format": "http://schema.org/LegislativeBuilding",
 	"media": {"type": "application/json;profile=http://schema.org/LegislativeBuilding"},
-	"allOf": [{"$ref": "GovernmentBuilding.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/GovernmentBuilding.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

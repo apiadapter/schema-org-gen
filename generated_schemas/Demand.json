@@ -3,38 +3,38 @@
 	"title": "Demand",
 	"format": "http://schema.org/Demand",
 	"media": {"type": "application/json;profile=http://schema.org/Demand"},
-	"allOf": [{"$ref": "Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
-		"acceptedPaymentMethod": {"$ref": "PaymentMethod.json#/definitions/possibleRef"},
-		"advanceBookingRequirement": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
-		"availability": {"$ref": "ItemAvailability.json#/definitions/possibleRef"},
+		"acceptedPaymentMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PaymentMethod.json#/definitions/possibleRef"},
+		"advanceBookingRequirement": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"availability": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ItemAvailability.json#/definitions/possibleRef"},
 		"availabilityEnds": {"$ref": "#/definitions/availabilityEnds"},
 		"availabilityStarts": {"$ref": "#/definitions/availabilityStarts"},
-		"availableAtOrFrom": {"$ref": "Place.json#/definitions/possibleRef"},
-		"availableDeliveryMethod": {"$ref": "DeliveryMethod.json#/definitions/possibleRef"},
-		"businessFunction": {"$ref": "BusinessFunction.json#/definitions/possibleRef"},
-		"deliveryLeadTime": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
-		"eligibleCustomerType": {"$ref": "BusinessEntityType.json#/definitions/possibleRef"},
-		"eligibleDuration": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
-		"eligibleQuantity": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
+		"availableAtOrFrom": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"},
+		"availableDeliveryMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryMethod.json#/definitions/possibleRef"},
+		"businessFunction": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BusinessFunction.json#/definitions/possibleRef"},
+		"deliveryLeadTime": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"eligibleCustomerType": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BusinessEntityType.json#/definitions/possibleRef"},
+		"eligibleDuration": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"eligibleQuantity": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
 		"eligibleRegion": {"$ref": "#/definitions/eligibleRegion"},
-		"eligibleTransactionVolume": {"$ref": "PriceSpecification.json#/definitions/possibleRef"},
+		"eligibleTransactionVolume": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PriceSpecification.json#/definitions/possibleRef"},
 		"gtin13": {"$ref": "#/definitions/gtin13"},
 		"gtin14": {"$ref": "#/definitions/gtin14"},
 		"gtin8": {"$ref": "#/definitions/gtin8"},
-		"includesObject": {"$ref": "TypeAndQuantityNode.json#/definitions/possibleRefArray"},
-		"inventoryLevel": {"$ref": "QuantitativeValue.json#/definitions/possibleRef"},
-		"itemCondition": {"$ref": "OfferItemCondition.json#/definitions/possibleRefArray"},
-		"itemOffered": {"$ref": "Product.json#/definitions/possibleRef"},
+		"includesObject": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TypeAndQuantityNode.json#/definitions/possibleRefArray"},
+		"inventoryLevel": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"itemCondition": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OfferItemCondition.json#/definitions/possibleRefArray"},
+		"itemOffered": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"},
 		"mpn": {"$ref": "#/definitions/mpn"},
-		"priceSpecification": {"$ref": "PriceSpecification.json#/definitions/possibleRefArray"},
+		"priceSpecification": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PriceSpecification.json#/definitions/possibleRefArray"},
 		"seller": {"$ref": "#/definitions/seller"},
 		"serialNumber": {"$ref": "#/definitions/serialNumber"},
 		"sku": {"$ref": "#/definitions/sku"},
 		"validFrom": {"$ref": "#/definitions/validFrom"},
 		"validThrough": {"$ref": "#/definitions/validThrough"},
-		"warranty": {"$ref": "WarrantyPromise.json#/definitions/possibleRef"}
+		"warranty": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WarrantyPromise.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {
@@ -56,7 +56,7 @@
 		"eligibleRegion": {
 			"title": "Eligible Region",
 			"description": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.",
-			"anyOf": [{"type": "string"}, {"$ref": "GeoShape.json#/definitions/possibleRef"}]
+			"anyOf": [{"type": "string"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/GeoShape.json#/definitions/possibleRef"}]
 		},
 		"gtin13": {
 			"title": "Gtin13",
@@ -110,7 +110,7 @@
 		"seller": {
 			"title": "Seller",
 			"description": "The organization or person making the offer.",
-			"anyOf": [{"$ref": "Organization.json#/definitions/possibleRef"}, {"$ref": "Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"serialNumber": {
 			"title": "Serial Number",

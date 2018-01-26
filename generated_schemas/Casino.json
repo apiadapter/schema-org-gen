@@ -3,7 +3,7 @@
 	"title": "Casino",
 	"format": "http://schema.org/Casino",
 	"media": {"type": "application/json;profile=http://schema.org/Casino"},
-	"allOf": [{"$ref": "EntertainmentBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EntertainmentBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

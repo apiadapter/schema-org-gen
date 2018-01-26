@@ -3,11 +3,11 @@
 	"title": "Video Object",
 	"format": "http://schema.org/VideoObject",
 	"media": {"type": "application/json;profile=http://schema.org/VideoObject"},
-	"allOf": [{"$ref": "MediaObject.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json"}],
 	"type": "object",
 	"properties": {
 		"caption": {"$ref": "#/definitions/caption"},
-		"thumbnail": {"$ref": "ImageObject.json#/definitions/possibleRef"},
+		"thumbnail": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"},
 		"transcript": {"$ref": "#/definitions/transcript"},
 		"videoFrameSize": {"$ref": "#/definitions/videoFrameSize"},
 		"videoQuality": {"$ref": "#/definitions/videoQuality"}

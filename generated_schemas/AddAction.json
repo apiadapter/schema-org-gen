@@ -3,7 +3,7 @@
 	"title": "Add Action",
 	"format": "http://schema.org/AddAction",
 	"media": {"type": "application/json;profile=http://schema.org/AddAction"},
-	"allOf": [{"$ref": "UpdateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UpdateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -130,7 +130,7 @@ request.get('https://raw.githubusercontent.com/CommerceIntegration/schema-org-ge
 				]
 			};
 			schema.allOf = spec.supertypes.map(function (supertype) {
-				return {"$ref": supertype + URL_SUFFIX};
+				return {"$ref": URL_PREFIX + supertype + URL_SUFFIX};
 			});
 			spec.specific_properties.forEach(function (key) {
 				if (key === 'array' || key === 'possibleRef' || key === 'possibleRefArray') {
@@ -149,7 +149,7 @@ request.get('https://raw.githubusercontent.com/CommerceIntegration/schema-org-ge
 						if (hardcodedSchemas[type]) {
 							options.push(getHardcoded(type));
 						} else {
-							options.push({"$ref": type + URL_SUFFIX + "#/definitions/possibleRef"});
+							options.push({"$ref": URL_PREFIX + type + URL_SUFFIX + "#/definitions/possibleRef"});
 						}
 					});
 					if (options.length == 1) {

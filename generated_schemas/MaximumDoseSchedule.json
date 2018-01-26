@@ -3,7 +3,7 @@
 	"title": "Maximum Dose Schedule",
 	"format": "http://schema.org/MaximumDoseSchedule",
 	"media": {"type": "application/json;profile=http://schema.org/MaximumDoseSchedule"},
-	"allOf": [{"$ref": "DoseSchedule.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DoseSchedule.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

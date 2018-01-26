@@ -3,7 +3,7 @@
 	"title": "Dentist",
 	"format": "http://schema.org/Dentist",
 	"media": {"type": "application/json;profile=http://schema.org/Dentist"},
-	"allOf": [{"$ref": "MedicalOrganization.json"}, {"$ref": "ProfessionalService.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalOrganization.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ProfessionalService.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -3,12 +3,12 @@
 	"title": "Local Business",
 	"format": "http://schema.org/LocalBusiness",
 	"media": {"type": "application/json;profile=http://schema.org/LocalBusiness"},
-	"allOf": [{"$ref": "Organization.json"}, {"$ref": "Place.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json"}],
 	"type": "object",
 	"properties": {
-		"branchOf": {"$ref": "Organization.json#/definitions/possibleRef"},
+		"branchOf": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
 		"currenciesAccepted": {"$ref": "#/definitions/currenciesAccepted"},
-		"openingHours": {"$ref": "Duration.json#/definitions/possibleRef"},
+		"openingHours": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"paymentAccepted": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/paymentAccepted"}

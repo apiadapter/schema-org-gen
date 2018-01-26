@@ -3,7 +3,7 @@
 	"title": "Landmarks or Historical Buildings",
 	"format": "http://schema.org/LandmarksOrHistoricalBuildings",
 	"media": {"type": "application/json;profile=http://schema.org/LandmarksOrHistoricalBuildings"},
-	"allOf": [{"$ref": "Place.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

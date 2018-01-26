@@ -3,7 +3,7 @@
 	"title": "Bone",
 	"format": "http://schema.org/Bone",
 	"media": {"type": "application/json;profile=http://schema.org/Bone"},
-	"allOf": [{"$ref": "AnatomicalStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

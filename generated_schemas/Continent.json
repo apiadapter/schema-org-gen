@@ -3,7 +3,7 @@
 	"title": "Continent",
 	"format": "http://schema.org/Continent",
 	"media": {"type": "application/json;profile=http://schema.org/Continent"},
-	"allOf": [{"$ref": "Landform.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Landform.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

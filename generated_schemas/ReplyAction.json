@@ -3,7 +3,7 @@
 	"title": "Reply Action",
 	"format": "http://schema.org/ReplyAction",
 	"media": {"type": "application/json;profile=http://schema.org/ReplyAction"},
-	"allOf": [{"$ref": "CommunicateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CommunicateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

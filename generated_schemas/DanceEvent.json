@@ -3,7 +3,7 @@
 	"title": "Dance Event",
 	"format": "http://schema.org/DanceEvent",
 	"media": {"type": "application/json;profile=http://schema.org/DanceEvent"},
-	"allOf": [{"$ref": "Event.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

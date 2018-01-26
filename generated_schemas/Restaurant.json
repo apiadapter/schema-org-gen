@@ -3,7 +3,7 @@
 	"title": "Restaurant",
 	"format": "http://schema.org/Restaurant",
 	"media": {"type": "application/json;profile=http://schema.org/Restaurant"},
-	"allOf": [{"$ref": "FoodEstablishment.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FoodEstablishment.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

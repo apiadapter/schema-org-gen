@@ -3,7 +3,7 @@
 	"title": "Palliative Procedure",
 	"format": "http://schema.org/PalliativeProcedure",
 	"media": {"type": "application/json;profile=http://schema.org/PalliativeProcedure"},
-	"allOf": [{"$ref": "MedicalProcedure.json"}, {"$ref": "MedicalTherapy.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalProcedure.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

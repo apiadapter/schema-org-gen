@@ -3,10 +3,10 @@
 	"title": "Postal Address",
 	"format": "http://schema.org/PostalAddress",
 	"media": {"type": "application/json;profile=http://schema.org/PostalAddress"},
-	"allOf": [{"$ref": "ContactPoint.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPoint.json"}],
 	"type": "object",
 	"properties": {
-		"addressCountry": {"$ref": "Country.json#/definitions/possibleRef"},
+		"addressCountry": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Country.json#/definitions/possibleRef"},
 		"addressLocality": {"$ref": "#/definitions/addressLocality"},
 		"addressRegion": {"$ref": "#/definitions/addressRegion"},
 		"postalCode": {"$ref": "#/definitions/postalCode"},

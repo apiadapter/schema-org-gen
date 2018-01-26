@@ -3,9 +3,9 @@
 	"title": "Write Action",
 	"format": "http://schema.org/WriteAction",
 	"media": {"type": "application/json;profile=http://schema.org/WriteAction"},
-	"allOf": [{"$ref": "CreateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreateAction.json"}],
 	"type": "object",
-	"properties": {"language": {"$ref": "Language.json#/definitions/possibleRefArray"}},
+	"properties": {"language": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Language.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

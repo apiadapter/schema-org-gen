@@ -3,9 +3,9 @@
 	"title": "Medical Observational Study",
 	"format": "http://schema.org/MedicalObservationalStudy",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalObservationalStudy"},
-	"allOf": [{"$ref": "MedicalStudy.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalStudy.json"}],
 	"type": "object",
-	"properties": {"studyDesign": {"$ref": "MedicalObservationalStudyDesign.json#/definitions/possibleRef"}},
+	"properties": {"studyDesign": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalObservationalStudyDesign.json#/definitions/possibleRef"}},
 	"definitions": {
 		"array": {
 			"type": "array",
