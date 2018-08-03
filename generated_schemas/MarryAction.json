@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MarryAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MarryAction.json",
 	"title": "Marry Action",
 	"format": "http://schema.org/MarryAction",
 	"media": {"type": "application/json;profile=http://schema.org/MarryAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InteractAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InteractAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DietarySupplement.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DietarySupplement.json",
 	"title": "Dietary Supplement",
 	"format": "http://schema.org/DietarySupplement",
 	"media": {"type": "application/json;profile=http://schema.org/DietarySupplement"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
 	"type": "object",
 	"properties": {
 		"activeIngredient": {
@@ -16,12 +16,12 @@
 			"items": {"$ref": "#/definitions/dosageForm"}
 		},
 		"isProprietary": {"$ref": "#/definitions/isProprietary"},
-		"legalStatus": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugLegalStatus.json#/definitions/possibleRef"},
-		"manufacturer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
-		"maximumIntake": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MaximumDoseSchedule.json#/definitions/possibleRef"},
+		"legalStatus": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrugLegalStatus.json#/definitions/possibleRef"},
+		"manufacturer": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
+		"maximumIntake": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MaximumDoseSchedule.json#/definitions/possibleRef"},
 		"mechanismOfAction": {"$ref": "#/definitions/mechanismOfAction"},
 		"nonProprietaryName": {"$ref": "#/definitions/nonProprietaryName"},
-		"recommendedIntake": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/RecommendedDoseSchedule.json#/definitions/possibleRefArray"},
+		"recommendedIntake": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/RecommendedDoseSchedule.json#/definitions/possibleRefArray"},
 		"safetyConsideration": {"$ref": "#/definitions/safetyConsideration"},
 		"targetPopulation": {
 			"type": "array",

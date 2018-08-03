@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ParentAudience.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ParentAudience.json",
 	"title": "Parent Audience",
 	"format": "http://schema.org/ParentAudience",
 	"media": {"type": "application/json;profile=http://schema.org/ParentAudience"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PeopleAudience.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PeopleAudience.json"}],
 	"type": "object",
 	"properties": {
 		"childMaxAge": {"$ref": "#/definitions/childMaxAge"},

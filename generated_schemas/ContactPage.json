@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPage.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPage.json",
 	"title": "Contact Page",
 	"format": "http://schema.org/ContactPage",
 	"media": {"type": "application/json;profile=http://schema.org/ContactPage"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPage.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WebPage.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

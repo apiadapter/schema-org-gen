@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DataDownload.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DataDownload.json",
 	"title": "Data Download",
 	"format": "http://schema.org/DataDownload",
 	"media": {"type": "application/json;profile=http://schema.org/DataDownload"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MediaObject.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

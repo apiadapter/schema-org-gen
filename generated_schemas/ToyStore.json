@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ToyStore.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ToyStore.json",
 	"title": "Toy Store",
 	"format": "http://schema.org/ToyStore",
 	"media": {"type": "application/json;profile=http://schema.org/ToyStore"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Store.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Store.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

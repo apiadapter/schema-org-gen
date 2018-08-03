@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Article.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Article.json",
 	"title": "Article",
 	"format": "http://schema.org/Article",
 	"media": {"type": "application/json;profile=http://schema.org/Article"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"articleBody": {"$ref": "#/definitions/articleBody"},

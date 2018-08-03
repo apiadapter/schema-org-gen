@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ListenAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ListenAction.json",
 	"title": "Listen Action",
 	"format": "http://schema.org/ListenAction",
 	"media": {"type": "application/json;profile=http://schema.org/ListenAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ConsumeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ConsumeAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

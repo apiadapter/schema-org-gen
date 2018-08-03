@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalRiskScore.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalRiskScore.json",
 	"title": "Medical Risk Score",
 	"format": "http://schema.org/MedicalRiskScore",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalRiskScore"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalRiskEstimator.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalRiskEstimator.json"}],
 	"type": "object",
 	"properties": {"algorithm": {"$ref": "#/definitions/algorithm"}},
 	"definitions": {

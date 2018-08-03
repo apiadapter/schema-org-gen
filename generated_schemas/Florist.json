@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Florist.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Florist.json",
 	"title": "Florist",
 	"format": "http://schema.org/Florist",
 	"media": {"type": "application/json;profile=http://schema.org/Florist"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Store.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Store.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

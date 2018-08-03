@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTrial.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTrial.json",
 	"title": "Medical Trial",
 	"format": "http://schema.org/MedicalTrial",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalTrial"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalStudy.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalStudy.json"}],
 	"type": "object",
 	"properties": {
 		"phase": {"$ref": "#/definitions/phase"},
-		"trialDesign": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTrialDesign.json#/definitions/possibleRef"}
+		"trialDesign": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTrialDesign.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/RadioStation.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/RadioStation.json",
 	"title": "Radio Station",
 	"format": "http://schema.org/RadioStation",
 	"media": {"type": "application/json;profile=http://schema.org/RadioStation"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

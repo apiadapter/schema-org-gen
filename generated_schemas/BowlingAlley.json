@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BowlingAlley.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BowlingAlley.json",
 	"title": "Bowling Alley",
 	"format": "http://schema.org/BowlingAlley",
 	"media": {"type": "application/json;profile=http://schema.org/BowlingAlley"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SportsActivityLocation.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/SportsActivityLocation.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

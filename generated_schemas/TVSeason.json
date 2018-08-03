@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TVSeason.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TVSeason.json",
 	"title": "TV Season",
 	"format": "http://schema.org/TVSeason",
 	"media": {"type": "application/json;profile=http://schema.org/TVSeason"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Season.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Season.json"}],
 	"type": "object",
-	"properties": {"partOfTVSeries": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TVSeries.json#/definitions/possibleRef"}},
+	"properties": {"partOfTVSeries": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TVSeries.json#/definitions/possibleRef"}},
 	"definitions": {
 		"array": {
 			"type": "array",

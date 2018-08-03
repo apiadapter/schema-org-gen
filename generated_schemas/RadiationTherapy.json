@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/RadiationTherapy.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/RadiationTherapy.json",
 	"title": "Radiation Therapy",
 	"format": "http://schema.org/RadiationTherapy",
 	"media": {"type": "application/json;profile=http://schema.org/RadiationTherapy"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

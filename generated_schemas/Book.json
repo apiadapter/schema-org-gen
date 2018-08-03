@@ -1,14 +1,14 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Book.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Book.json",
 	"title": "Book",
 	"format": "http://schema.org/Book",
 	"media": {"type": "application/json;profile=http://schema.org/Book"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"bookEdition": {"$ref": "#/definitions/bookEdition"},
-		"bookFormat": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BookFormatType.json#/definitions/possibleRef"},
-		"illustrator": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"bookFormat": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BookFormatType.json#/definitions/possibleRef"},
+		"illustrator": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
 		"isbn": {"$ref": "#/definitions/isbn"},
 		"numberOfPages": {"$ref": "#/definitions/numberOfPages"}
 	},

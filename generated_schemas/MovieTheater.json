@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MovieTheater.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MovieTheater.json",
 	"title": "Movie Theater",
 	"format": "http://schema.org/MovieTheater",
 	"media": {"type": "application/json;profile=http://schema.org/MovieTheater"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CivicStructure.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EntertainmentBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CivicStructure.json"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EntertainmentBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

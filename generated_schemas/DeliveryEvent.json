@@ -1,15 +1,15 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryEvent.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DeliveryEvent.json",
 	"title": "Delivery Event",
 	"format": "http://schema.org/DeliveryEvent",
 	"media": {"type": "application/json;profile=http://schema.org/DeliveryEvent"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json"}],
 	"type": "object",
 	"properties": {
 		"accessCode": {"$ref": "#/definitions/accessCode"},
 		"availableFrom": {"$ref": "#/definitions/availableFrom"},
 		"availableThrough": {"$ref": "#/definitions/availableThrough"},
-		"hasDeliveryMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryMethod.json#/definitions/possibleRef"}
+		"hasDeliveryMethod": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DeliveryMethod.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

@@ -1,17 +1,17 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Permit.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Permit.json",
 	"title": "Permit",
 	"format": "http://schema.org/Permit",
 	"media": {"type": "application/json;profile=http://schema.org/Permit"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
-		"issuedBy": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
-		"issuedThrough": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Service.json#/definitions/possibleRef"},
-		"permitAudience": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
-		"validFor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
+		"issuedBy": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
+		"issuedThrough": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Service.json#/definitions/possibleRef"},
+		"permitAudience": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
+		"validFor": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"validFrom": {"$ref": "#/definitions/validFrom"},
-		"validIn": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
+		"validIn": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
 		"validUntil": {"$ref": "#/definitions/validUntil"}
 	},
 	"definitions": {

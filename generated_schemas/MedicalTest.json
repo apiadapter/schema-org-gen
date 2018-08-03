@@ -1,16 +1,16 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTest.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTest.json",
 	"title": "Medical Test",
 	"format": "http://schema.org/MedicalTest",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalTest"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
 	"properties": {
-		"affectedBy": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Drug.json#/definitions/possibleRefArray"},
+		"affectedBy": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Drug.json#/definitions/possibleRefArray"},
 		"normalRange": {"$ref": "#/definitions/normalRange"},
-		"signDetected": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSign.json#/definitions/possibleRefArray"},
-		"usedToDiagnose": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalCondition.json#/definitions/possibleRefArray"},
-		"usesDevice": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalDevice.json#/definitions/possibleRefArray"}
+		"signDetected": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalSign.json#/definitions/possibleRefArray"},
+		"usedToDiagnose": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalCondition.json#/definitions/possibleRefArray"},
+		"usesDevice": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalDevice.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

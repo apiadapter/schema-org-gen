@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WriteAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WriteAction.json",
 	"title": "Write Action",
 	"format": "http://schema.org/WriteAction",
 	"media": {"type": "application/json;profile=http://schema.org/WriteAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreateAction.json"}],
 	"type": "object",
-	"properties": {"language": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Language.json#/definitions/possibleRefArray"}},
+	"properties": {"language": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Language.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

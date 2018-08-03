@@ -1,28 +1,28 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json",
 	"title": "Organization",
 	"format": "http://schema.org/Organization",
 	"media": {"type": "application/json;profile=http://schema.org/Organization"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
-		"address": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"},
-		"aggregateRating": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AggregateRating.json#/definitions/possibleRef"},
+		"address": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"},
+		"aggregateRating": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AggregateRating.json#/definitions/possibleRef"},
 		"brand": {"$ref": "#/definitions/brand"},
-		"contactPoint": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRefArray"},
-		"department": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
+		"contactPoint": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRefArray"},
+		"department": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
 		"duns": {"$ref": "#/definitions/duns"},
 		"email": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/email"}
 		},
-		"employee": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
-		"event": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
+		"employee": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"event": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
 		"faxNumber": {"$ref": "#/definitions/faxNumber"},
-		"founder": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"founder": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
 		"foundingDate": {"$ref": "#/definitions/foundingDate"},
 		"globalLocationNumber": {"$ref": "#/definitions/globalLocationNumber"},
-		"hasPOS": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRefArray"},
+		"hasPOS": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRefArray"},
 		"interactionCount": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/interactionCount"}
@@ -34,7 +34,7 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/logo"}
 		},
-		"makesOffer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
+		"makesOffer": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
 		"member": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/member"}
@@ -44,9 +44,9 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/owns"}
 		},
-		"review": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Review.json#/definitions/possibleRefArray"},
-		"seeks": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Demand.json#/definitions/possibleRefArray"},
-		"subOrganization": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
+		"review": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Review.json#/definitions/possibleRefArray"},
+		"seeks": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Demand.json#/definitions/possibleRefArray"},
+		"subOrganization": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
 		"taxID": {"$ref": "#/definitions/taxID"},
 		"telephone": {"$ref": "#/definitions/telephone"},
 		"vatID": {"$ref": "#/definitions/vatID"}
@@ -59,7 +59,7 @@
 		"brand": {
 			"title": "Brand",
 			"description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Brand.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Brand.json#/definitions/possibleRef"}]
 		},
 		"duns": {
 			"title": "Duns",
@@ -105,7 +105,7 @@
 		"location": {
 			"title": "Location",
 			"description": "The location of the event, organization or action.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
 		},
 		"logo": {
 			"title": "Logo",
@@ -115,13 +115,13 @@
 					"type": "string",
 					"format": "uri"
 				},
-				{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
+				{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
 			]
 		},
 		"member": {
 			"title": "Member",
 			"description": "A member of this organization.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"naics": {
 			"title": "Naics",
@@ -131,7 +131,7 @@
 		"owns": {
 			"title": "Owns",
 			"description": "Products owned by the organization or person.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OwnershipInfo.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OwnershipInfo.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"}]
 		},
 		"possibleRef": {
 			"oneOf": [

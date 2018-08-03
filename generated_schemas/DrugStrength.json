@@ -1,16 +1,16 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugStrength.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrugStrength.json",
 	"title": "Drug Strength",
 	"format": "http://schema.org/DrugStrength",
 	"media": {"type": "application/json;profile=http://schema.org/DrugStrength"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
 	"type": "object",
 	"properties": {
 		"activeIngredient": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/activeIngredient"}
 		},
-		"availableIn": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
+		"availableIn": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
 		"strengthUnit": {"$ref": "#/definitions/strengthUnit"},
 		"strengthValue": {"$ref": "#/definitions/strengthValue"}
 	},

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CommentAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CommentAction.json",
 	"title": "Comment Action",
 	"format": "http://schema.org/CommentAction",
 	"media": {"type": "application/json;profile=http://schema.org/CommentAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CommunicateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CommunicateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

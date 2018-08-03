@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Rating.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Rating.json",
 	"title": "Rating",
 	"format": "http://schema.org/Rating",
 	"media": {"type": "application/json;profile=http://schema.org/Rating"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
 		"bestRating": {"$ref": "#/definitions/bestRating"},

@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/GovernmentService.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/GovernmentService.json",
 	"title": "Government Service",
 	"format": "http://schema.org/GovernmentService",
 	"media": {"type": "application/json;profile=http://schema.org/GovernmentService"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Service.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Service.json"}],
 	"type": "object",
-	"properties": {"serviceOperator": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}},
+	"properties": {"serviceOperator": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}},
 	"definitions": {
 		"array": {
 			"type": "array",

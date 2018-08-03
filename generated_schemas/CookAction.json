@@ -1,17 +1,17 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CookAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CookAction.json",
 	"title": "Cook Action",
 	"format": "http://schema.org/CookAction",
 	"media": {"type": "application/json;profile=http://schema.org/CookAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreateAction.json"}],
 	"type": "object",
 	"properties": {
 		"foodEstablishment": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/foodEstablishment"}
 		},
-		"foodEvent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FoodEvent.json#/definitions/possibleRefArray"},
-		"recipe": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Recipe.json#/definitions/possibleRefArray"}
+		"foodEvent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/FoodEvent.json#/definitions/possibleRefArray"},
+		"recipe": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Recipe.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {
@@ -50,7 +50,7 @@
 		"foodEstablishment": {
 			"title": "Food Establishment",
 			"description": "A sub property of location. The specific food establishment where the action occurreed.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FoodEstablishment.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/FoodEstablishment.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
 		}
 	}
 }

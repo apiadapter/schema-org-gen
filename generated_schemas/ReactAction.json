@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ReactAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ReactAction.json",
 	"title": "React Action",
 	"format": "http://schema.org/ReactAction",
 	"media": {"type": "application/json;profile=http://schema.org/ReactAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AssessAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AssessAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

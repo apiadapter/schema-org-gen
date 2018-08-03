@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InsuranceAgency.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InsuranceAgency.json",
 	"title": "Insurance Agency",
 	"format": "http://schema.org/InsuranceAgency",
 	"media": {"type": "application/json;profile=http://schema.org/InsuranceAgency"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FinancialService.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/FinancialService.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

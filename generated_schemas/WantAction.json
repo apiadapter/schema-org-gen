@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WantAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WantAction.json",
 	"title": "Want Action",
 	"format": "http://schema.org/WantAction",
 	"media": {"type": "application/json;profile=http://schema.org/WantAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ReactAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ReactAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

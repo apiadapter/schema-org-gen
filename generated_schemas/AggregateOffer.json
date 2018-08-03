@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AggregateOffer.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AggregateOffer.json",
 	"title": "Aggregate Offer",
 	"format": "http://schema.org/AggregateOffer",
 	"media": {"type": "application/json;profile=http://schema.org/AggregateOffer"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Offer.json"}],
 	"type": "object",
 	"properties": {
 		"highPrice": {"$ref": "#/definitions/highPrice"},

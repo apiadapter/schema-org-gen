@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnimalShelter.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnimalShelter.json",
 	"title": "Animal Shelter",
 	"format": "http://schema.org/AnimalShelter",
 	"media": {"type": "application/json;profile=http://schema.org/AnimalShelter"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/LocalBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

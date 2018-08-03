@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSpecialty.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalSpecialty.json",
 	"title": "Medical Specialty",
 	"format": "http://schema.org/MedicalSpecialty",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalSpecialty"},

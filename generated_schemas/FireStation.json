@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FireStation.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/FireStation.json",
 	"title": "Fire Station",
 	"format": "http://schema.org/FireStation",
 	"media": {"type": "application/json;profile=http://schema.org/FireStation"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CivicStructure.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EmergencyService.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CivicStructure.json"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EmergencyService.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

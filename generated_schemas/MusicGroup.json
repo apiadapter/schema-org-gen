@@ -1,14 +1,14 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicGroup.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MusicGroup.json",
 	"title": "Music Group",
 	"format": "http://schema.org/MusicGroup",
 	"media": {"type": "application/json;profile=http://schema.org/MusicGroup"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PerformingGroup.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PerformingGroup.json"}],
 	"type": "object",
 	"properties": {
-		"album": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicAlbum.json#/definitions/possibleRefArray"},
-		"musicGroupMember": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
-		"track": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicRecording.json#/definitions/possibleRefArray"}
+		"album": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MusicAlbum.json#/definitions/possibleRefArray"},
+		"musicGroupMember": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"track": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MusicRecording.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

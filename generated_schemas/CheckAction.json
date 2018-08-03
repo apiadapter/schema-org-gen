@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CheckAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CheckAction.json",
 	"title": "Check Action",
 	"format": "http://schema.org/CheckAction",
 	"media": {"type": "application/json;profile=http://schema.org/CheckAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FindAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/FindAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

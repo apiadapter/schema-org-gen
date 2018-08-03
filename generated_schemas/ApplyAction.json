@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ApplyAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ApplyAction.json",
 	"title": "Apply Action",
 	"format": "http://schema.org/ApplyAction",
 	"media": {"type": "application/json;profile=http://schema.org/ApplyAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OrganizeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OrganizeAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

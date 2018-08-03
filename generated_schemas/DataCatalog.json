@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DataCatalog.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DataCatalog.json",
 	"title": "Data Catalog",
 	"format": "http://schema.org/DataCatalog",
 	"media": {"type": "application/json;profile=http://schema.org/DataCatalog"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
-	"properties": {"dataset": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Dataset.json#/definitions/possibleRefArray"}},
+	"properties": {"dataset": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Dataset.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

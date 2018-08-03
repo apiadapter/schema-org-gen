@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Blog.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Blog.json",
 	"title": "Blog",
 	"format": "http://schema.org/Blog",
 	"media": {"type": "application/json;profile=http://schema.org/Blog"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
-	"properties": {"blogPost": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BlogPosting.json#/definitions/possibleRefArray"}},
+	"properties": {"blogPost": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BlogPosting.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

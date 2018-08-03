@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HousePainter.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/HousePainter.json",
 	"title": "House Painter",
 	"format": "http://schema.org/HousePainter",
 	"media": {"type": "application/json;profile=http://schema.org/HousePainter"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ProfessionalService.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HomeAndConstructionBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ProfessionalService.json"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/HomeAndConstructionBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

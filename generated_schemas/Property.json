@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Property.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Property.json",
 	"title": "Property",
 	"format": "http://schema.org/Property",
 	"media": {"type": "application/json;profile=http://schema.org/Property"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
-		"domainIncludes": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Class.json#/definitions/possibleRefArray"},
-		"rangeIncludes": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Class.json#/definitions/possibleRefArray"}
+		"domainIncludes": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Class.json#/definitions/possibleRefArray"},
+		"rangeIncludes": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Class.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

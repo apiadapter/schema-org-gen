@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/State.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/State.json",
 	"title": "State",
 	"format": "http://schema.org/State",
 	"media": {"type": "application/json;profile=http://schema.org/State"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AdministrativeArea.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

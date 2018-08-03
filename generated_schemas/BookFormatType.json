@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BookFormatType.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BookFormatType.json",
 	"title": "Book Format Type",
 	"format": "http://schema.org/BookFormatType",
 	"media": {"type": "application/json;profile=http://schema.org/BookFormatType"},

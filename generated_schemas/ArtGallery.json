@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ArtGallery.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ArtGallery.json",
 	"title": "Art Gallery",
 	"format": "http://schema.org/ArtGallery",
 	"media": {"type": "application/json;profile=http://schema.org/ArtGallery"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EntertainmentBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EntertainmentBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

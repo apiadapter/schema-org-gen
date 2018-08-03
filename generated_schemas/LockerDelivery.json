@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LockerDelivery.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/LockerDelivery.json",
 	"title": "Locker Delivery",
 	"format": "http://schema.org/LockerDelivery",
 	"media": {"type": "application/json;profile=http://schema.org/LockerDelivery"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryMethod.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DeliveryMethod.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

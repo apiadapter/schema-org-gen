@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json",
 	"title": "Event",
 	"format": "http://schema.org/Event",
 	"media": {"type": "application/json;profile=http://schema.org/Event"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
 		"attendee": {
@@ -11,11 +11,11 @@
 			"items": {"$ref": "#/definitions/attendee"}
 		},
 		"doorTime": {"$ref": "#/definitions/doorTime"},
-		"duration": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
+		"duration": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"endDate": {"$ref": "#/definitions/endDate"},
-		"eventStatus": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EventStatusType.json#/definitions/possibleRefArray"},
+		"eventStatus": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EventStatusType.json#/definitions/possibleRefArray"},
 		"location": {"$ref": "#/definitions/location"},
-		"offers": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
+		"offers": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
 		"performer": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/performer"}
@@ -25,8 +25,8 @@
 			"items": {"$ref": "#/definitions/previousStartDate"}
 		},
 		"startDate": {"$ref": "#/definitions/startDate"},
-		"subEvent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
-		"superEvent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
+		"subEvent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
+		"superEvent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
 		"typicalAgeRange": {"$ref": "#/definitions/typicalAgeRange"}
 	},
 	"definitions": {
@@ -37,7 +37,7 @@
 		"attendee": {
 			"title": "Attendee",
 			"description": "A person or organization attending the event.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"doorTime": {
 			"title": "Door Time",
@@ -54,12 +54,12 @@
 		"location": {
 			"title": "Location",
 			"description": "The location of the event, organization or action.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
 		},
 		"performer": {
 			"title": "Performer",
 			"description": "A performer at the event—for example, a presenter, musician, musical group or actor.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"possibleRef": {
 			"oneOf": [

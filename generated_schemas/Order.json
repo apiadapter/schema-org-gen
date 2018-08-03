@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Order.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Order.json",
 	"title": "Order",
 	"format": "http://schema.org/Order",
 	"media": {"type": "application/json;profile=http://schema.org/Order"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
-		"acceptedOffer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
-		"billingAddress": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"},
+		"acceptedOffer": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
+		"billingAddress": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"},
 		"confirmationNumber": {"$ref": "#/definitions/confirmationNumber"},
 		"customer": {"$ref": "#/definitions/customer"},
 		"discount": {"$ref": "#/definitions/discount"},
@@ -16,10 +16,10 @@
 		"isGift": {"$ref": "#/definitions/isGift"},
 		"orderDate": {"$ref": "#/definitions/orderDate"},
 		"orderNumber": {"$ref": "#/definitions/orderNumber"},
-		"orderStatus": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OrderStatus.json#/definitions/possibleRef"},
-		"orderedItem": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
+		"orderStatus": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OrderStatus.json#/definitions/possibleRef"},
+		"orderedItem": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
 		"paymentDue": {"$ref": "#/definitions/paymentDue"},
-		"paymentMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PaymentMethod.json#/definitions/possibleRef"},
+		"paymentMethod": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PaymentMethod.json#/definitions/possibleRef"},
 		"paymentMethodId": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/paymentMethodId"}
@@ -46,7 +46,7 @@
 		"customer": {
 			"title": "Customer",
 			"description": "Party placing the order.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"discount": {
 			"title": "Discount",

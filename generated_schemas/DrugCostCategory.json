@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugCostCategory.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrugCostCategory.json",
 	"title": "Drug Cost Category",
 	"format": "http://schema.org/DrugCostCategory",
 	"media": {"type": "application/json;profile=http://schema.org/DrugCostCategory"},

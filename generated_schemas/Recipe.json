@@ -1,24 +1,24 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Recipe.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Recipe.json",
 	"title": "Recipe",
 	"format": "http://schema.org/Recipe",
 	"media": {"type": "application/json;profile=http://schema.org/Recipe"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"cookingMethod": {"$ref": "#/definitions/cookingMethod"},
-		"cookTime": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
+		"cookTime": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"ingredients": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/ingredients"}
 		},
-		"nutrition": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/NutritionInformation.json#/definitions/possibleRef"},
-		"prepTime": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
+		"nutrition": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/NutritionInformation.json#/definitions/possibleRef"},
+		"prepTime": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"recipeCategory": {"$ref": "#/definitions/recipeCategory"},
 		"recipeCuisine": {"$ref": "#/definitions/recipeCuisine"},
 		"recipeInstructions": {"$ref": "#/definitions/recipeInstructions"},
 		"recipeYield": {"$ref": "#/definitions/recipeYield"},
-		"totalTime": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"}
+		"totalTime": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

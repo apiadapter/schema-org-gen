@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Brand.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Brand.json",
 	"title": "Brand",
 	"format": "http://schema.org/Brand",
 	"media": {"type": "application/json;profile=http://schema.org/Brand"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
 		"logo": {
@@ -53,7 +53,7 @@
 					"type": "string",
 					"format": "uri"
 				},
-				{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
+				{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
 			]
 		}
 	}

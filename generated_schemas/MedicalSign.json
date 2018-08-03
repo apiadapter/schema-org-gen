@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSign.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalSign.json",
 	"title": "Medical Sign",
 	"format": "http://schema.org/MedicalSign",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalSign"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSignOrSymptom.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalSignOrSymptom.json"}],
 	"type": "object",
 	"properties": {
-		"identifyingExam": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PhysicalExam.json#/definitions/possibleRefArray"},
-		"identifyingTest": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTest.json#/definitions/possibleRefArray"}
+		"identifyingExam": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PhysicalExam.json#/definitions/possibleRefArray"},
+		"identifyingTest": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTest.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

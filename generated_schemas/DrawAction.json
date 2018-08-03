@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrawAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrawAction.json",
 	"title": "Draw Action",
 	"format": "http://schema.org/DrawAction",
 	"media": {"type": "application/json;profile=http://schema.org/DrawAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebApplication.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WebApplication.json",
 	"title": "Web Application",
 	"format": "http://schema.org/WebApplication",
 	"media": {"type": "application/json;profile=http://schema.org/WebApplication"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SoftwareApplication.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/SoftwareApplication.json"}],
 	"type": "object",
 	"properties": {"browserRequirements": {"$ref": "#/definitions/browserRequirements"}},
 	"definitions": {

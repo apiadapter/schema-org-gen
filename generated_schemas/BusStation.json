@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BusStation.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BusStation.json",
 	"title": "Bus Station",
 	"format": "http://schema.org/BusStation",
 	"media": {"type": "application/json;profile=http://schema.org/BusStation"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CivicStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CivicStructure.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

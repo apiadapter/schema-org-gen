@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Volcano.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Volcano.json",
 	"title": "Volcano",
 	"format": "http://schema.org/Volcano",
 	"media": {"type": "application/json;profile=http://schema.org/Volcano"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Landform.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Landform.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

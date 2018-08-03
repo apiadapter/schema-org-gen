@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/GovernmentPermit.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/GovernmentPermit.json",
 	"title": "Government Permit",
 	"format": "http://schema.org/GovernmentPermit",
 	"media": {"type": "application/json;profile=http://schema.org/GovernmentPermit"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Permit.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Permit.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Hostel.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Hostel.json",
 	"title": "Hostel",
 	"format": "http://schema.org/Hostel",
 	"media": {"type": "application/json;profile=http://schema.org/Hostel"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LodgingBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/LodgingBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BlogPosting.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BlogPosting.json",
 	"title": "Blog Posting",
 	"format": "http://schema.org/BlogPosting",
 	"media": {"type": "application/json;profile=http://schema.org/BlogPosting"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Article.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Article.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

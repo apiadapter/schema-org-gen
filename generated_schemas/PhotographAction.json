@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PhotographAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PhotographAction.json",
 	"title": "Photograph Action",
 	"format": "http://schema.org/PhotographAction",
 	"media": {"type": "application/json;profile=http://schema.org/PhotographAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

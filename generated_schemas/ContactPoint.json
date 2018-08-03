@@ -1,14 +1,14 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPoint.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPoint.json",
 	"title": "Contact Point",
 	"format": "http://schema.org/ContactPoint",
 	"media": {"type": "application/json;profile=http://schema.org/ContactPoint"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
 	"type": "object",
 	"properties": {
-		"areaServed": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
-		"availableLanguage": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Language.json#/definitions/possibleRefArray"},
-		"contactOption": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPointOption.json#/definitions/possibleRefArray"},
+		"areaServed": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
+		"availableLanguage": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Language.json#/definitions/possibleRefArray"},
+		"contactOption": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPointOption.json#/definitions/possibleRefArray"},
 		"contactType": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/contactType"}
@@ -18,7 +18,7 @@
 			"items": {"$ref": "#/definitions/email"}
 		},
 		"faxNumber": {"$ref": "#/definitions/faxNumber"},
-		"hoursAvailable": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OpeningHoursSpecification.json#/definitions/possibleRef"},
+		"hoursAvailable": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OpeningHoursSpecification.json#/definitions/possibleRef"},
 		"productSupported": {"$ref": "#/definitions/productSupported"},
 		"telephone": {"$ref": "#/definitions/telephone"}
 	},
@@ -74,7 +74,7 @@
 		"productSupported": {
 			"title": "Product Supported",
 			"description": "The product or service this support contact point is related to (such as product support for a particular product line). This can be a specific product or product line (e.g. \"iPhone\") or a general category of products or services (e.g. \"smartphones\").",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"}, {"type": "string"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"}, {"type": "string"}]
 		},
 		"telephone": {
 			"title": "Telephone",

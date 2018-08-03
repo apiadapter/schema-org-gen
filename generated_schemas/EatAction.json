@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EatAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EatAction.json",
 	"title": "Eat Action",
 	"format": "http://schema.org/EatAction",
 	"media": {"type": "application/json;profile=http://schema.org/EatAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ConsumeAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ConsumeAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

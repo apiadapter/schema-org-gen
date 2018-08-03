@@ -1,16 +1,16 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Service.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Service.json",
 	"title": "Service",
 	"format": "http://schema.org/Service",
 	"media": {"type": "application/json;profile=http://schema.org/Service"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Intangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Intangible.json"}],
 	"type": "object",
 	"properties": {
-		"availableChannel": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ServiceChannel.json#/definitions/possibleRefArray"},
-		"produces": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRef"},
+		"availableChannel": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ServiceChannel.json#/definitions/possibleRefArray"},
+		"produces": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRef"},
 		"provider": {"$ref": "#/definitions/provider"},
-		"serviceArea": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
-		"serviceAudience": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
+		"serviceArea": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
+		"serviceAudience": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
 		"serviceType": {"$ref": "#/definitions/serviceType"}
 	},
 	"definitions": {
@@ -50,7 +50,7 @@
 		"provider": {
 			"title": "Provider",
 			"description": "The organization or agency that is providing the service.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"}]
 		},
 		"serviceType": {
 			"title": "Service Type",

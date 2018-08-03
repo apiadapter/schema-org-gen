@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AutoRental.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AutoRental.json",
 	"title": "Auto Rental",
 	"format": "http://schema.org/AutoRental",
 	"media": {"type": "application/json;profile=http://schema.org/AutoRental"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AutomotiveBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AutomotiveBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

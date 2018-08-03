@@ -1,12 +1,12 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PeopleAudience.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PeopleAudience.json",
 	"title": "People Audience",
 	"format": "http://schema.org/PeopleAudience",
 	"media": {"type": "application/json;profile=http://schema.org/PeopleAudience"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Audience.json"}],
 	"type": "object",
 	"properties": {
-		"healthCondition": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalCondition.json#/definitions/possibleRef"},
+		"healthCondition": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalCondition.json#/definitions/possibleRef"},
 		"requiredGender": {"$ref": "#/definitions/requiredGender"},
 		"requiredMaxAge": {"$ref": "#/definitions/requiredMaxAge"},
 		"requiredMinAge": {"$ref": "#/definitions/requiredMinAge"},

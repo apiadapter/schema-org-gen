@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DaySpa.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DaySpa.json",
 	"title": "Day Spa",
 	"format": "http://schema.org/DaySpa",
 	"media": {"type": "application/json;profile=http://schema.org/DaySpa"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

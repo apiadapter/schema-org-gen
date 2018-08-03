@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WPAdBlock.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WPAdBlock.json",
 	"title": "WP Ad Block",
 	"format": "http://schema.org/WPAdBlock",
 	"media": {"type": "application/json;profile=http://schema.org/WPAdBlock"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPageElement.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WebPageElement.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

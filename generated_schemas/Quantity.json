@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Quantity.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Quantity.json",
 	"title": "Quantity",
 	"format": "http://schema.org/Quantity",
 	"media": {"type": "application/json;profile=http://schema.org/Quantity"},

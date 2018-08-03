@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SubscribeAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/SubscribeAction.json",
 	"title": "Subscribe Action",
 	"format": "http://schema.org/SubscribeAction",
 	"media": {"type": "application/json;profile=http://schema.org/SubscribeAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InteractAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InteractAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

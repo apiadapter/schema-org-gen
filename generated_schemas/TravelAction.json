@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TravelAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TravelAction.json",
 	"title": "Travel Action",
 	"format": "http://schema.org/TravelAction",
 	"media": {"type": "application/json;profile=http://schema.org/TravelAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MoveAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MoveAction.json"}],
 	"type": "object",
-	"properties": {"distance": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRefArray"}},
+	"properties": {"distance": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

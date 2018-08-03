@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ComedyEvent.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ComedyEvent.json",
 	"title": "Comedy Event",
 	"format": "http://schema.org/ComedyEvent",
 	"media": {"type": "application/json;profile=http://schema.org/ComedyEvent"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,15 +1,15 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalProcedure.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalProcedure.json",
 	"title": "Medical Procedure",
 	"format": "http://schema.org/MedicalProcedure",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalProcedure"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
 	"properties": {
 		"followup": {"$ref": "#/definitions/followup"},
 		"howPerformed": {"$ref": "#/definitions/howPerformed"},
 		"preparation": {"$ref": "#/definitions/preparation"},
-		"procedureType": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalProcedureType.json#/definitions/possibleRef"}
+		"procedureType": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalProcedureType.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TVClip.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TVClip.json",
 	"title": "TV Clip",
 	"format": "http://schema.org/TVClip",
 	"media": {"type": "application/json;profile=http://schema.org/TVClip"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Clip.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Clip.json"}],
 	"type": "object",
-	"properties": {"partOfTVSeries": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TVSeries.json#/definitions/possibleRef"}},
+	"properties": {"partOfTVSeries": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TVSeries.json#/definitions/possibleRef"}},
 	"definitions": {
 		"array": {
 			"type": "array",

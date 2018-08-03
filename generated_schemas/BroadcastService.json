@@ -1,14 +1,14 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BroadcastService.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BroadcastService.json",
 	"title": "Broadcast Service",
 	"format": "http://schema.org/BroadcastService",
 	"media": {"type": "application/json;profile=http://schema.org/BroadcastService"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
-		"area": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"},
-		"broadcaster": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
-		"parentService": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BroadcastService.json#/definitions/possibleRefArray"}
+		"area": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"},
+		"broadcaster": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
+		"parentService": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BroadcastService.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

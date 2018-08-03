@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PaymentChargeSpecification.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PaymentChargeSpecification.json",
 	"title": "Payment Charge Specification",
 	"format": "http://schema.org/PaymentChargeSpecification",
 	"media": {"type": "application/json;profile=http://schema.org/PaymentChargeSpecification"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PriceSpecification.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PriceSpecification.json"}],
 	"type": "object",
 	"properties": {
-		"appliesToDeliveryMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryMethod.json#/definitions/possibleRef"},
-		"appliesToPaymentMethod": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PaymentMethod.json#/definitions/possibleRef"}
+		"appliesToDeliveryMethod": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DeliveryMethod.json#/definitions/possibleRef"},
+		"appliesToPaymentMethod": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PaymentMethod.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

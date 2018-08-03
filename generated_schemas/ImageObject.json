@@ -1,15 +1,15 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ImageObject.json",
 	"title": "Image Object",
 	"format": "http://schema.org/ImageObject",
 	"media": {"type": "application/json;profile=http://schema.org/ImageObject"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MediaObject.json"}],
 	"type": "object",
 	"properties": {
 		"caption": {"$ref": "#/definitions/caption"},
 		"exifData": {"$ref": "#/definitions/exifData"},
 		"representativeOfPage": {"$ref": "#/definitions/representativeOfPage"},
-		"thumbnail": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
+		"thumbnail": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

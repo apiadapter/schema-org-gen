@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InteractAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InteractAction.json",
 	"title": "Interact Action",
 	"format": "http://schema.org/InteractAction",
 	"media": {"type": "application/json;profile=http://schema.org/InteractAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Action.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Action.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

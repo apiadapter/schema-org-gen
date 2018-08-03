@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Specialty.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Specialty.json",
 	"title": "Specialty",
 	"format": "http://schema.org/Specialty",
 	"media": {"type": "application/json;profile=http://schema.org/Specialty"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Enumeration.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Enumeration.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

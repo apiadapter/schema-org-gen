@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Ligament.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Ligament.json",
 	"title": "Ligament",
 	"format": "http://schema.org/Ligament",
 	"media": {"type": "application/json;profile=http://schema.org/Ligament"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

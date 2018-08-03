@@ -1,17 +1,17 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json",
 	"title": "Medical Entity",
 	"format": "http://schema.org/MedicalEntity",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalEntity"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
-		"code": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalCode.json#/definitions/possibleRefArray"},
-		"guideline": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalGuideline.json#/definitions/possibleRefArray"},
-		"medicineSystem": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicineSystem.json#/definitions/possibleRef"},
-		"recognizingAuthority": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
-		"relevantSpecialty": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalSpecialty.json#/definitions/possibleRefArray"},
-		"study": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalStudy.json#/definitions/possibleRefArray"}
+		"code": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalCode.json#/definitions/possibleRefArray"},
+		"guideline": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalGuideline.json#/definitions/possibleRefArray"},
+		"medicineSystem": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicineSystem.json#/definitions/possibleRef"},
+		"recognizingAuthority": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
+		"relevantSpecialty": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalSpecialty.json#/definitions/possibleRefArray"},
+		"study": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalStudy.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ArriveAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ArriveAction.json",
 	"title": "Arrive Action",
 	"format": "http://schema.org/ArriveAction",
 	"media": {"type": "application/json;profile=http://schema.org/ArriveAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MoveAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MoveAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

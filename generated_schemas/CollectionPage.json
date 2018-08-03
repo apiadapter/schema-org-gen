@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CollectionPage.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CollectionPage.json",
 	"title": "Collection Page",
 	"format": "http://schema.org/CollectionPage",
 	"media": {"type": "application/json;profile=http://schema.org/CollectionPage"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPage.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WebPage.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

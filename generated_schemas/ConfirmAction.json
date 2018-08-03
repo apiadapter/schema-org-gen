@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ConfirmAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ConfirmAction.json",
 	"title": "Confirm Action",
 	"format": "http://schema.org/ConfirmAction",
 	"media": {"type": "application/json;profile=http://schema.org/ConfirmAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InformAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InformAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,6 +1,6 @@
 var OUTPUT_DIR = "generated_schemas";
 var OUTPUT_SUFFIX = ".json";
-var URL_PREFIX = "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/";
+var URL_PREFIX = "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/";
 var URL_SUFFIX = '.json';
 var REL_PREFIX = 'http://schema.org/';
 

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PrependAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PrependAction.json",
 	"title": "Prepend Action",
 	"format": "http://schema.org/PrependAction",
 	"media": {"type": "application/json;profile=http://schema.org/PrependAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InsertAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InsertAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

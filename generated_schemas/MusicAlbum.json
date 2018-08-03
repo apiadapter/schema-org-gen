@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicAlbum.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MusicAlbum.json",
 	"title": "Music Album",
 	"format": "http://schema.org/MusicAlbum",
 	"media": {"type": "application/json;profile=http://schema.org/MusicAlbum"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicPlaylist.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MusicPlaylist.json"}],
 	"type": "object",
-	"properties": {"byArtist": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MusicGroup.json#/definitions/possibleRef"}},
+	"properties": {"byArtist": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MusicGroup.json#/definitions/possibleRef"}},
 	"definitions": {
 		"array": {
 			"type": "array",

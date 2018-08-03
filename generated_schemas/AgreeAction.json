@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AgreeAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AgreeAction.json",
 	"title": "Agree Action",
 	"format": "http://schema.org/AgreeAction",
 	"media": {"type": "application/json;profile=http://schema.org/AgreeAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ReactAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ReactAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

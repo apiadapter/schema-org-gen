@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PreventionIndication.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PreventionIndication.json",
 	"title": "Prevention Indication",
 	"format": "http://schema.org/PreventionIndication",
 	"media": {"type": "application/json;profile=http://schema.org/PreventionIndication"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIndication.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalIndication.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

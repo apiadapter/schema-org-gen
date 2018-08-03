@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalGuidelineContraindication.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalGuidelineContraindication.json",
 	"title": "Medical Guideline Contraindication",
 	"format": "http://schema.org/MedicalGuidelineContraindication",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalGuidelineContraindication"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalGuideline.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalGuideline.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

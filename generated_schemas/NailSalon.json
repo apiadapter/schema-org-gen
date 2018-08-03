@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/NailSalon.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/NailSalon.json",
 	"title": "Nail Salon",
 	"format": "http://schema.org/NailSalon",
 	"media": {"type": "application/json;profile=http://schema.org/NailSalon"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json",
 	"title": "Product",
 	"format": "http://schema.org/Product",
 	"media": {"type": "application/json;profile=http://schema.org/Product"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
-		"aggregateRating": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AggregateRating.json#/definitions/possibleRef"},
-		"audience": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
+		"aggregateRating": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AggregateRating.json#/definitions/possibleRef"},
+		"audience": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Audience.json#/definitions/possibleRef"},
 		"brand": {"$ref": "#/definitions/brand"},
 		"color": {"$ref": "#/definitions/color"},
 		"depth": {"$ref": "#/definitions/depth"},
@@ -15,24 +15,24 @@
 		"gtin14": {"$ref": "#/definitions/gtin14"},
 		"gtin8": {"$ref": "#/definitions/gtin8"},
 		"height": {"$ref": "#/definitions/height"},
-		"isAccessoryOrSparePartFor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
-		"isConsumableFor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
-		"isRelatedTo": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
-		"isSimilarTo": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
-		"itemCondition": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OfferItemCondition.json#/definitions/possibleRefArray"},
+		"isAccessoryOrSparePartFor": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
+		"isConsumableFor": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
+		"isRelatedTo": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
+		"isSimilarTo": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRefArray"},
+		"itemCondition": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OfferItemCondition.json#/definitions/possibleRefArray"},
 		"logo": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/logo"}
 		},
-		"manufacturer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
+		"manufacturer": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
 		"model": {"$ref": "#/definitions/model"},
 		"mpn": {"$ref": "#/definitions/mpn"},
-		"offers": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
+		"offers": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
 		"productID": {"$ref": "#/definitions/productID"},
 		"releaseDate": {"$ref": "#/definitions/releaseDate"},
-		"review": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Review.json#/definitions/possibleRefArray"},
+		"review": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Review.json#/definitions/possibleRefArray"},
 		"sku": {"$ref": "#/definitions/sku"},
-		"weight": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
+		"weight": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"},
 		"width": {"$ref": "#/definitions/width"}
 	},
 	"definitions": {
@@ -43,7 +43,7 @@
 		"brand": {
 			"title": "Brand",
 			"description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Brand.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Brand.json#/definitions/possibleRef"}]
 		},
 		"color": {
 			"title": "Color",
@@ -53,7 +53,7 @@
 		"depth": {
 			"title": "Depth",
 			"description": "The depth of the product.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
 		},
 		"gtin13": {
 			"title": "Gtin13",
@@ -73,7 +73,7 @@
 		"height": {
 			"title": "Height",
 			"description": "The height of the item.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
 		},
 		"logo": {
 			"title": "Logo",
@@ -83,13 +83,13 @@
 					"type": "string",
 					"format": "uri"
 				},
-				{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
+				{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ImageObject.json#/definitions/possibleRef"}
 			]
 		},
 		"model": {
 			"title": "Model",
 			"description": "The model of the product. Use with the URL of a ProductModel or a textual representation of the model identifier. The URL of the ProductModel can be from an external source. It is recommended to additionally provide strong product identifiers via the gtin8/gtin13/gtin14 and mpn properties.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ProductModel.json#/definitions/possibleRef"}, {"type": "string"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ProductModel.json#/definitions/possibleRef"}, {"type": "string"}]
 		},
 		"mpn": {
 			"title": "Mpn",
@@ -144,7 +144,7 @@
 		"width": {
 			"title": "Width",
 			"description": "The width of the item.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
 		}
 	}
 }

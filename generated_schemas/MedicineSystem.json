@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicineSystem.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicineSystem.json",
 	"title": "Medicine System",
 	"format": "http://schema.org/MedicineSystem",
 	"media": {"type": "application/json;profile=http://schema.org/MedicineSystem"},

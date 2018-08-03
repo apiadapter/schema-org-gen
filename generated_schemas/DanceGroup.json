@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DanceGroup.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DanceGroup.json",
 	"title": "Dance Group",
 	"format": "http://schema.org/DanceGroup",
 	"media": {"type": "application/json;profile=http://schema.org/DanceGroup"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PerformingGroup.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PerformingGroup.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

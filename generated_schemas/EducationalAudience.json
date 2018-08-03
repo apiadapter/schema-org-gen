@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EducationalAudience.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EducationalAudience.json",
 	"title": "Educational Audience",
 	"format": "http://schema.org/EducationalAudience",
 	"media": {"type": "application/json;profile=http://schema.org/EducationalAudience"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Audience.json"}],
 	"type": "object",
 	"properties": {
 		"educationalRole": {

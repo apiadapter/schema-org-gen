@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/RegisterAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/RegisterAction.json",
 	"title": "Register Action",
 	"format": "http://schema.org/RegisterAction",
 	"media": {"type": "application/json;profile=http://schema.org/RegisterAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/InteractAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/InteractAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

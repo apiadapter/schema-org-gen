@@ -1,23 +1,23 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/NutritionInformation.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/NutritionInformation.json",
 	"title": "Nutrition Information",
 	"format": "http://schema.org/NutritionInformation",
 	"media": {"type": "application/json;profile=http://schema.org/NutritionInformation"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
 	"type": "object",
 	"properties": {
-		"calories": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Energy.json#/definitions/possibleRef"},
-		"carbohydrateContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"cholesterolContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"fatContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"fiberContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"proteinContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"saturatedFatContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"calories": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Energy.json#/definitions/possibleRef"},
+		"carbohydrateContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"cholesterolContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"fatContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"fiberContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"proteinContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"saturatedFatContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
 		"servingSize": {"$ref": "#/definitions/servingSize"},
-		"sodiumContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"sugarContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"transFatContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
-		"unsaturatedFatContent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"}
+		"sodiumContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"sugarContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"transFatContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"},
+		"unsaturatedFatContent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Mass.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

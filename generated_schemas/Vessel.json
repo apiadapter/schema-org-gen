@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Vessel.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Vessel.json",
 	"title": "Vessel",
 	"format": "http://schema.org/Vessel",
 	"media": {"type": "application/json;profile=http://schema.org/Vessel"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

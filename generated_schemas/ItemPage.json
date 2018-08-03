@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ItemPage.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ItemPage.json",
 	"title": "Item Page",
 	"format": "http://schema.org/ItemPage",
 	"media": {"type": "application/json;profile=http://schema.org/ItemPage"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPage.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WebPage.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

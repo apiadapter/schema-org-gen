@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ChildrensEvent.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ChildrensEvent.json",
 	"title": "Childrens Event",
 	"format": "http://schema.org/ChildrensEvent",
 	"media": {"type": "application/json;profile=http://schema.org/ChildrensEvent"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

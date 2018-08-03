@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalStudyStatus.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalStudyStatus.json",
 	"title": "Medical Study Status",
 	"format": "http://schema.org/MedicalStudyStatus",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalStudyStatus"},

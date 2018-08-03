@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DislikeAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DislikeAction.json",
 	"title": "Dislike Action",
 	"format": "http://schema.org/DislikeAction",
 	"media": {"type": "application/json;profile=http://schema.org/DislikeAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ReactAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ReactAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

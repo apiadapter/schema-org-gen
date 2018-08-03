@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json",
 	"title": "Quantitative Value",
 	"format": "http://schema.org/QuantitativeValue",
 	"media": {"type": "application/json;profile=http://schema.org/QuantitativeValue"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
 	"type": "object",
 	"properties": {
 		"maxValue": {"$ref": "#/definitions/maxValue"},
@@ -72,7 +72,7 @@
 		"valueReference": {
 			"title": "Value Reference",
 			"description": "A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Enumeration.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/StructuredValue.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Enumeration.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/StructuredValue.json#/definitions/possibleRef"}]
 		}
 	}
 }

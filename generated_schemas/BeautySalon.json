@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BeautySalon.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BeautySalon.json",
 	"title": "Beauty Salon",
 	"format": "http://schema.org/BeautySalon",
 	"media": {"type": "application/json;profile=http://schema.org/BeautySalon"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/HealthAndBeautyBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,27 +1,27 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json",
 	"title": "Person",
 	"format": "http://schema.org/Person",
 	"media": {"type": "application/json;profile=http://schema.org/Person"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json"}],
 	"type": "object",
 	"properties": {
 		"additionalName": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/additionalName"}
 		},
-		"address": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"},
-		"affiliation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
-		"alumniOf": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/EducationalOrganization.json#/definitions/possibleRefArray"},
+		"address": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PostalAddress.json#/definitions/possibleRef"},
+		"affiliation": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
+		"alumniOf": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/EducationalOrganization.json#/definitions/possibleRefArray"},
 		"award": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/award"}
 		},
 		"birthDate": {"$ref": "#/definitions/birthDate"},
 		"brand": {"$ref": "#/definitions/brand"},
-		"children": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
-		"colleague": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
-		"contactPoint": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRefArray"},
+		"children": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"colleague": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"contactPoint": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRefArray"},
 		"deathDate": {"$ref": "#/definitions/deathDate"},
 		"duns": {"$ref": "#/definitions/duns"},
 		"email": {
@@ -30,14 +30,14 @@
 		},
 		"familyName": {"$ref": "#/definitions/familyName"},
 		"faxNumber": {"$ref": "#/definitions/faxNumber"},
-		"follows": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"follows": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
 		"gender": {"$ref": "#/definitions/gender"},
 		"givenName": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/givenName"}
 		},
 		"globalLocationNumber": {"$ref": "#/definitions/globalLocationNumber"},
-		"hasPOS": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRefArray"},
+		"hasPOS": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRefArray"},
 		"homeLocation": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/homeLocation"}
@@ -56,21 +56,21 @@
 		},
 		"isicV4": {"$ref": "#/definitions/isicV4"},
 		"jobTitle": {"$ref": "#/definitions/jobTitle"},
-		"knows": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
-		"makesOffer": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
-		"memberOf": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
+		"knows": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"makesOffer": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Offer.json#/definitions/possibleRefArray"},
+		"memberOf": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"},
 		"naics": {"$ref": "#/definitions/naics"},
-		"nationality": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Country.json#/definitions/possibleRefArray"},
+		"nationality": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Country.json#/definitions/possibleRefArray"},
 		"owns": {
 			"type": "array",
 			"items": {"$ref": "#/definitions/owns"}
 		},
-		"parent": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
-		"performerIn": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
-		"relatedTo": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
-		"seeks": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Demand.json#/definitions/possibleRefArray"},
-		"sibling": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
-		"spouse": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"parent": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"performerIn": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json#/definitions/possibleRefArray"},
+		"relatedTo": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
+		"seeks": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Demand.json#/definitions/possibleRefArray"},
+		"sibling": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRefArray"},
+		"spouse": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Person.json#/definitions/possibleRef"},
 		"taxID": {"$ref": "#/definitions/taxID"},
 		"telephone": {"$ref": "#/definitions/telephone"},
 		"vatID": {"$ref": "#/definitions/vatID"},
@@ -78,7 +78,7 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/workLocation"}
 		},
-		"worksFor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"}
+		"worksFor": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"additionalName": {
@@ -104,7 +104,7 @@
 		"brand": {
 			"title": "Brand",
 			"description": "The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Brand.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Brand.json#/definitions/possibleRef"}]
 		},
 		"deathDate": {
 			"title": "Death Date",
@@ -150,7 +150,7 @@
 		"homeLocation": {
 			"title": "Home Location",
 			"description": "A contact location for a person's residence.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
 		},
 		"honorificPrefix": {
 			"title": "Honorific Prefix",
@@ -185,7 +185,7 @@
 		"owns": {
 			"title": "Owns",
 			"description": "Products owned by the organization or person.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OwnershipInfo.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OwnershipInfo.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Product.json#/definitions/possibleRef"}]
 		},
 		"possibleRef": {
 			"oneOf": [
@@ -234,7 +234,7 @@
 		"workLocation": {
 			"title": "Work Location",
 			"description": "A contact location for a person's place of work.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ContactPoint.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}]
 		}
 	}
 }

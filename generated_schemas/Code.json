@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Code.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Code.json",
 	"title": "Code",
 	"format": "http://schema.org/Code",
 	"media": {"type": "application/json;profile=http://schema.org/Code"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
 		"codeRepository": {
@@ -18,10 +18,10 @@
 				}]
 			}
 		},
-		"programmingLanguage": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRefArray"},
+		"programmingLanguage": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRefArray"},
 		"runtime": {"$ref": "#/definitions/runtime"},
 		"sampleType": {"$ref": "#/definitions/sampleType"},
-		"targetProduct": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SoftwareApplication.json#/definitions/possibleRefArray"}
+		"targetProduct": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/SoftwareApplication.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

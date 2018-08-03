@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/VeterinaryCare.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/VeterinaryCare.json",
 	"title": "Veterinary Care",
 	"format": "http://schema.org/VeterinaryCare",
 	"media": {"type": "application/json;profile=http://schema.org/VeterinaryCare"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalOrganization.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalOrganization.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

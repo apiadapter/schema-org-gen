@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BrainStructure.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BrainStructure.json",
 	"title": "Brain Structure",
 	"format": "http://schema.org/BrainStructure",
 	"media": {"type": "application/json;profile=http://schema.org/BrainStructure"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

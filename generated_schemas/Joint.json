@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Joint.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Joint.json",
 	"title": "Joint",
 	"format": "http://schema.org/Joint",
 	"media": {"type": "application/json;profile=http://schema.org/Joint"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalStructure.json"}],
 	"type": "object",
 	"properties": {
 		"biomechnicalClass": {"$ref": "#/definitions/biomechnicalClass"},

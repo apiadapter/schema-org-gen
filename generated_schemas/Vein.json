@@ -1,14 +1,14 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Vein.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Vein.json",
 	"title": "Vein",
 	"format": "http://schema.org/Vein",
 	"media": {"type": "application/json;profile=http://schema.org/Vein"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Vessel.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Vessel.json"}],
 	"type": "object",
 	"properties": {
-		"drainsTo": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Vessel.json#/definitions/possibleRef"},
+		"drainsTo": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Vessel.json#/definitions/possibleRef"},
 		"regionDrained": {"$ref": "#/definitions/regionDrained"},
-		"tributary": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRef"}
+		"tributary": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {
@@ -47,7 +47,7 @@
 		"regionDrained": {
 			"title": "Region Drained",
 			"description": "The anatomical or organ system drained by this vessel; generally refers to a specific part of an organ.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalSystem.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalSystem.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AnatomicalStructure.json#/definitions/possibleRef"}]
 		}
 	}
 }

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TransferAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TransferAction.json",
 	"title": "Transfer Action",
 	"format": "http://schema.org/TransferAction",
 	"media": {"type": "application/json;profile=http://schema.org/TransferAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Action.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Action.json"}],
 	"type": "object",
 	"properties": {
 		"fromLocation": {
@@ -52,12 +52,12 @@
 		"fromLocation": {
 			"title": "From Location",
 			"description": "A sub property of location. The original location of the object or the agent before the action.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}, {"type": "number"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}, {"type": "number"}]
 		},
 		"toLocation": {
 			"title": "To Location",
 			"description": "A sub property of location. The final location of the object or the agent after the action.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}, {"type": "number"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"}, {"type": "number"}]
 		}
 	}
 }

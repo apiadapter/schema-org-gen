@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/SaleEvent.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/SaleEvent.json",
 	"title": "Sale Event",
 	"format": "http://schema.org/SaleEvent",
 	"media": {"type": "application/json;profile=http://schema.org/SaleEvent"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Event.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Event.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AcceptAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AcceptAction.json",
 	"title": "Accept Action",
 	"format": "http://schema.org/AcceptAction",
 	"media": {"type": "application/json;profile=http://schema.org/AcceptAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AllocateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AllocateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

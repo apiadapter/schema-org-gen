@@ -1,14 +1,14 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Review.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Review.json",
 	"title": "Review",
 	"format": "http://schema.org/Review",
 	"media": {"type": "application/json;profile=http://schema.org/Review"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
-		"itemReviewed": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRef"},
+		"itemReviewed": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Thing.json#/definitions/possibleRef"},
 		"reviewBody": {"$ref": "#/definitions/reviewBody"},
-		"reviewRating": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Rating.json#/definitions/possibleRef"}
+		"reviewRating": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Rating.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

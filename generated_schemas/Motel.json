@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Motel.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Motel.json",
 	"title": "Motel",
 	"format": "http://schema.org/Motel",
 	"media": {"type": "application/json;profile=http://schema.org/Motel"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/LodgingBusiness.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/LodgingBusiness.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

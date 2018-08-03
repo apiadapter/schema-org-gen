@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DoseSchedule.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DoseSchedule.json",
 	"title": "Dose Schedule",
 	"format": "http://schema.org/DoseSchedule",
 	"media": {"type": "application/json;profile=http://schema.org/DoseSchedule"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
 	"type": "object",
 	"properties": {
 		"doseUnit": {"$ref": "#/definitions/doseUnit"},

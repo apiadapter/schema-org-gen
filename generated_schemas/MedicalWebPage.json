@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalWebPage.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalWebPage.json",
 	"title": "Medical Web Page",
 	"format": "http://schema.org/MedicalWebPage",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalWebPage"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/WebPage.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/WebPage.json"}],
 	"type": "object",
 	"properties": {
 		"aspect": {

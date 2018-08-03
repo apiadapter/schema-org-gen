@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEvidenceLevel.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEvidenceLevel.json",
 	"title": "Medical Evidence Level",
 	"format": "http://schema.org/MedicalEvidenceLevel",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalEvidenceLevel"},

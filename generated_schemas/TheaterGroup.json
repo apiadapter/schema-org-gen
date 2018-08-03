@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/TheaterGroup.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/TheaterGroup.json",
 	"title": "Theater Group",
 	"format": "http://schema.org/TheaterGroup",
 	"media": {"type": "application/json;profile=http://schema.org/TheaterGroup"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PerformingGroup.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PerformingGroup.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

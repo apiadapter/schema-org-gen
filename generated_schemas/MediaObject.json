@@ -1,24 +1,24 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MediaObject.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MediaObject.json",
 	"title": "Media Object",
 	"format": "http://schema.org/MediaObject",
 	"media": {"type": "application/json;profile=http://schema.org/MediaObject"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}],
 	"type": "object",
 	"properties": {
-		"associatedArticle": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/NewsArticle.json#/definitions/possibleRefArray"},
+		"associatedArticle": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/NewsArticle.json#/definitions/possibleRefArray"},
 		"bitrate": {"$ref": "#/definitions/bitrate"},
 		"contentSize": {"$ref": "#/definitions/contentSize"},
 		"contentUrl": {
 			"type": "string",
 			"format": "uri"
 		},
-		"duration": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
+		"duration": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"embedUrl": {
 			"type": "string",
 			"format": "uri"
 		},
-		"encodesCreativeWork": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json#/definitions/possibleRef"},
+		"encodesCreativeWork": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json#/definitions/possibleRef"},
 		"encodingFormat": {"$ref": "#/definitions/encodingFormat"},
 		"expires": {"$ref": "#/definitions/expires"},
 		"height": {"$ref": "#/definitions/height"},
@@ -26,9 +26,9 @@
 			"type": "array",
 			"items": {"$ref": "#/definitions/playerType"}
 		},
-		"productionCompany": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
-		"publication": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PublicationEvent.json#/definitions/possibleRefArray"},
-		"regionsAllowed": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"},
+		"productionCompany": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Organization.json#/definitions/possibleRef"},
+		"publication": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PublicationEvent.json#/definitions/possibleRefArray"},
+		"regionsAllowed": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Place.json#/definitions/possibleRef"},
 		"requiresSubscription": {"$ref": "#/definitions/requiresSubscription"},
 		"uploadDate": {"$ref": "#/definitions/uploadDate"},
 		"width": {"$ref": "#/definitions/width"}
@@ -72,7 +72,7 @@
 		"height": {
 			"title": "Height",
 			"description": "The height of the item.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
 		},
 		"playerType": {
 			"title": "Player Type",
@@ -122,7 +122,7 @@
 		"width": {
 			"title": "Width",
 			"description": "The width of the item.",
-			"anyOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
+			"anyOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Distance.json#/definitions/possibleRef"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/QuantitativeValue.json#/definitions/possibleRef"}]
 		}
 	}
 }

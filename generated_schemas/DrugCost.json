@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugCost.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrugCost.json",
 	"title": "Drug Cost",
 	"format": "http://schema.org/DrugCost",
 	"media": {"type": "application/json;profile=http://schema.org/DrugCost"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
 	"type": "object",
 	"properties": {
-		"applicableLocation": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
-		"costCategory": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugCostCategory.json#/definitions/possibleRef"},
+		"applicableLocation": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/AdministrativeArea.json#/definitions/possibleRef"},
+		"costCategory": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrugCostCategory.json#/definitions/possibleRef"},
 		"costCurrency": {"$ref": "#/definitions/costCurrency"},
 		"costOrigin": {"$ref": "#/definitions/costOrigin"},
 		"costPerUnit": {"$ref": "#/definitions/costPerUnit"},

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserDownloads.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/UserDownloads.json",
 	"title": "User Downloads",
 	"format": "http://schema.org/UserDownloads",
 	"media": {"type": "application/json;profile=http://schema.org/UserDownloads"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserInteraction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/UserInteraction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

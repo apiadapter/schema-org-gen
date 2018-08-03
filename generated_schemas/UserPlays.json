@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserPlays.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/UserPlays.json",
 	"title": "User Plays",
 	"format": "http://schema.org/UserPlays",
 	"media": {"type": "application/json;profile=http://schema.org/UserPlays"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UserInteraction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/UserInteraction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/OnSitePickup.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/OnSitePickup.json",
 	"title": "On Site Pickup",
 	"format": "http://schema.org/OnSitePickup",
 	"media": {"type": "application/json;profile=http://schema.org/OnSitePickup"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeliveryMethod.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DeliveryMethod.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,12 +1,12 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/ExercisePlan.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/ExercisePlan.json",
 	"title": "Exercise Plan",
 	"format": "http://schema.org/ExercisePlan",
 	"media": {"type": "application/json;profile=http://schema.org/ExercisePlan"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CreativeWork.json"}, {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PhysicalActivity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CreativeWork.json"}, {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PhysicalActivity.json"}],
 	"type": "object",
 	"properties": {
-		"activityDuration": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
+		"activityDuration": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Duration.json#/definitions/possibleRef"},
 		"activityFrequency": {"$ref": "#/definitions/activityFrequency"},
 		"additionalVariable": {
 			"type": "array",
@@ -19,7 +19,7 @@
 		"intensity": {"$ref": "#/definitions/intensity"},
 		"repetitions": {"$ref": "#/definitions/repetitions"},
 		"restPeriods": {"$ref": "#/definitions/restPeriods"},
-		"workload": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Energy.json#/definitions/possibleRef"}
+		"workload": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Energy.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

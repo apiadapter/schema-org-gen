@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Aquarium.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Aquarium.json",
 	"title": "Aquarium",
 	"format": "http://schema.org/Aquarium",
 	"media": {"type": "application/json;profile=http://schema.org/Aquarium"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CivicStructure.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CivicStructure.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

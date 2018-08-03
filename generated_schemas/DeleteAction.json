@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DeleteAction.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DeleteAction.json",
 	"title": "Delete Action",
 	"format": "http://schema.org/DeleteAction",
 	"media": {"type": "application/json;profile=http://schema.org/DeleteAction"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/UpdateAction.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/UpdateAction.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

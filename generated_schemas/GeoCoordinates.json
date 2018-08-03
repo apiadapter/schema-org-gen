@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/GeoCoordinates.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/GeoCoordinates.json",
 	"title": "Geo Coordinates",
 	"format": "http://schema.org/GeoCoordinates",
 	"media": {"type": "application/json;profile=http://schema.org/GeoCoordinates"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/StructuredValue.json"}],
 	"type": "object",
 	"properties": {
 		"elevation": {"$ref": "#/definitions/elevation"},

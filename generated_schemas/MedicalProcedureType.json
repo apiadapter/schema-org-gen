@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalProcedureType.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalProcedureType.json",
 	"title": "Medical Procedure Type",
 	"format": "http://schema.org/MedicalProcedureType",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalProcedureType"},

@@ -1,13 +1,13 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalRiskEstimator.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalRiskEstimator.json",
 	"title": "Medical Risk Estimator",
 	"format": "http://schema.org/MedicalRiskEstimator",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalRiskEstimator"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
 	"properties": {
-		"estimatesRiskOf": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRef"},
-		"includedRiskFactor": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalRiskFactor.json#/definitions/possibleRefArray"}
+		"estimatesRiskOf": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRef"},
+		"includedRiskFactor": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalRiskFactor.json#/definitions/possibleRefArray"}
 	},
 	"definitions": {
 		"array": {

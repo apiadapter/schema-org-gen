@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/PaymentMethod.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/PaymentMethod.json",
 	"title": "Payment Method",
 	"format": "http://schema.org/PaymentMethod",
 	"media": {"type": "application/json;profile=http://schema.org/PaymentMethod"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Enumeration.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Enumeration.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

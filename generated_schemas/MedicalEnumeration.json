@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEnumeration.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEnumeration.json",
 	"title": "Medical Enumeration",
 	"format": "http://schema.org/MedicalEnumeration",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalEnumeration"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalIntangible.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

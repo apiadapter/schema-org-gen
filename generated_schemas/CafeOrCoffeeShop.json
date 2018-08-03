@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/CafeOrCoffeeShop.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/CafeOrCoffeeShop.json",
 	"title": "Cafe or Coffee Shop",
 	"format": "http://schema.org/CafeOrCoffeeShop",
 	"media": {"type": "application/json;profile=http://schema.org/CafeOrCoffeeShop"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/FoodEstablishment.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/FoodEstablishment.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

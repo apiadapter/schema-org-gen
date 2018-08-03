@@ -1,15 +1,15 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalGuideline.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalGuideline.json",
 	"title": "Medical Guideline",
 	"format": "http://schema.org/MedicalGuideline",
 	"media": {"type": "application/json;profile=http://schema.org/MedicalGuideline"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json"}],
 	"type": "object",
 	"properties": {
-		"evidenceLevel": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEvidenceLevel.json#/definitions/possibleRef"},
+		"evidenceLevel": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEvidenceLevel.json#/definitions/possibleRef"},
 		"evidenceOrigin": {"$ref": "#/definitions/evidenceOrigin"},
 		"guidelineDate": {"$ref": "#/definitions/guidelineDate"},
-		"guidelineSubject": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRef"}
+		"guidelineSubject": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalEntity.json#/definitions/possibleRef"}
 	},
 	"definitions": {
 		"array": {

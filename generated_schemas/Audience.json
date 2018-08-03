@@ -1,5 +1,5 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Audience.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Audience.json",
 	"title": "Audience",
 	"format": "http://schema.org/Audience",
 	"media": {"type": "application/json;profile=http://schema.org/Audience"},

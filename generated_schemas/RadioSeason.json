@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/RadioSeason.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/RadioSeason.json",
 	"title": "Radio Season",
 	"format": "http://schema.org/RadioSeason",
 	"media": {"type": "application/json;profile=http://schema.org/RadioSeason"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Season.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Season.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",

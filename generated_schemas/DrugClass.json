@@ -1,11 +1,11 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/DrugClass.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/DrugClass.json",
 	"title": "Drug Class",
 	"format": "http://schema.org/DrugClass",
 	"media": {"type": "application/json;profile=http://schema.org/DrugClass"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/MedicalTherapy.json"}],
 	"type": "object",
-	"properties": {"drug": {"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Drug.json#/definitions/possibleRefArray"}},
+	"properties": {"drug": {"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Drug.json#/definitions/possibleRefArray"}},
 	"definitions": {
 		"array": {
 			"type": "array",

@@ -1,9 +1,9 @@
 {
-	"id": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/BodyOfWater.json",
+	"id": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/BodyOfWater.json",
 	"title": "Body of Water",
 	"format": "http://schema.org/BodyOfWater",
 	"media": {"type": "application/json;profile=http://schema.org/BodyOfWater"},
-	"allOf": [{"$ref": "https://raw.githubusercontent.com/CommerceIntegration/schema-org-gen/master/generated_schemas/Landform.json"}],
+	"allOf": [{"$ref": "https://raw.githubusercontent.com/apiadapter/schema-org-gen/master/generated_schemas/Landform.json"}],
 	"definitions": {
 		"array": {
 			"type": "array",
